@@ -1,0 +1,39 @@
+
+// Base
+// -----------------------------------------------------------------------------
+@import "base/reset";
+@import "base/mixins";
+@import "base/functions";
+@import "base/helpers";
+@import "base/elements";
+@import "base/variables";
+
+
+// Layout
+// -----------------------------------------------------------------------------
+@import "layout/page.header";
+@import "layout/page.content";
+@import "layout/page.footer";
+@import "layout/forms";
+@import "layout/testritform";
+
+
+
+// Other
+// -----------------------------------------------------------------------------
+@import "block/block";
+@import "content/node.page";
+@import "content/node.article";
+
+
+
+// SCSS components 
+// -----------------------------------------------------------------------------
+@import "components/buttons"; 
+@import "components/carrousel";
+
+
+// Pages
+// ----------------------------------------------------------------------------
+
+@import "pages/front"

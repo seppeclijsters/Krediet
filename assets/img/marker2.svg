@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="64px" viewBox="0 0 51 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1114.62707,2860.0257 C1112.98566,2858.45288 1111.59319,2856.62233 1110.51469,2854.59906 L1110.06071,2854 L1110.20734,2854 C1108.79405,2851.13532 1108,2847.91039 1108,2844.5 C1108,2832.62588 1117.62588,2823 1129.5,2823 C1141.37412,2823 1151,2832.62588 1151,2844.5 C1151,2847.91039 1150.20595,2851.13532 1148.79266,2854 L1149.06758,2854 L1148.15346,2855.19835 C1147.21869,2856.8247 1146.07733,2858.31723 1144.76522,2859.64012 L1129.5,2879.6518 L1114.62707,2860.0257 Z" id="path-1"></path>
+        <filter x="-16.3%" y="-8.8%" width="132.6%" height="124.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="OnePager---Mitusbishi-Desktop" transform="translate(-1104.000000, -2821.000000)">
+            <g id="Combined-Shape">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#ED0105" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

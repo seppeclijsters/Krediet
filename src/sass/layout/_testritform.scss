@@ -1,0 +1,196 @@
+// -------------HEADING--------------
+
+
+.testrit-hero-heading{
+    margin: 30% 0;
+}
+
+.h1-text{
+    padding: 0 10%;
+}
+.testrit-hero{
+    text-align: center;
+}
+
+.h2-testrit{
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+
+
+.h-text{
+    text-align: center;
+    margin: 20px 0;
+}
+.h-text__2{
+    text-align: center;
+    padding: 0 0 60px 0;
+    
+}
+
+// -------------CLIENT DATA--------------
+
+
+.client-data-mobile__testrit{
+    margin-top: 37px;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+   
+.testrit-hero-heading{
+    margin: 20% 0;
+}
+
+
+}
+
+
+.h2-testrit{
+    text-align: center;
+    padding: 100px 0 0 0;
+}
+ 
+
+
+// -------------MEDIA QUERIES CLIENT DATA--------------
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+    .testrit-hero-heading{
+        margin: 15% 0;
+    }
+
+    .testrit-column{
+        padding: 0;
+    }
+
+    .client-data-mobile__testrit{
+        margin-top: 35px;
+    }
+
+
+}
+
+// -------------FORM--------------
+
+.testrit-left, .testrit-right{
+    padding: 0
+}
+
+//--------------MEDIA QUERIE-----------
+//Small devices (landscape phones, 768px and up)
+@media (min-width: 768px) { 
+   .testrit-right{
+    padding: 0 0 20px 20px;
+}
+
+ .testrit-left{
+     padding-right: 20px;
+
+ }
+}
+
+
+// -------------APPOINTMENT--------------
+
+.bootstrap-datetimepicker-widget table td span.active, .bootstrap-datetimepicker-widget table td span.active:hover {
+    background-color: red!important;
+  }
+  
+  .bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active {
+    background-color: red!important;
+  }
+
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
+    background-color: $mitsu-red!important;
+}
+
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active {
+    background-color: $mitsu-red!important;
+}
+
+th.prev {
+    background-image: url(../../assets/img/back.svg)!important;
+    background-repeat: no-repeat !important;
+    background-position: center!important;
+    background-size: 15px!important;
+}
+
+th.next {
+    background-image: url(../../assets/img/next.svg)!important;
+    background-repeat: no-repeat !important;
+    background-position: center!important;
+    background-size: 15px!important;
+}
+
+.appointment-calendar{
+    position: relative;
+    padding-left: 0;
+
+    .appointment-calendar__icon {
+        background-image: url(../../assets/img/calendar.svg);
+        position: absolute;
+        right: 25px;
+        top: 35px;
+        width: 24px;
+        height: 24px;
+        pointer-events: none;
+        background-color: white;
+    }
+
+    .calendar-outline {
+        background: none;
+
+        &:focus {
+            background-image: none;
+        }
+    }
+
+    .calendar-outline:focus{
+        box-shadow: none;
+        border-bottom: 1px black solid;
+    }
+ }
+.appointment-hours{
+    font-family: mmc;
+    padding-bottom: 0;
+    margin-top: 40px;;
+    padding-left: 0;
+}
+
+
+.input-group-text{
+    background-color: white; 
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    border-radius: 0; 
+}
+
+
+.input-group-text:focus{
+background-color: red;
+}
+
+// -------------USED MEDIA QUERIES--------------
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+//Small devices (landscape phones, 768px and up)
+@media (min-width: 576px) { 
+    .appointment-hours{
+        margin-top:0;
+        padding: 0 0 0 20px;
+    }
+ }
+
+ .appointment-calendar{
+    padding: 0 20px 0 0 ;
+}
+// -------------WAY OF CONTACTING--------------
+
+.contact-form__contact-me{
+    margin-top: 30px;;
+}

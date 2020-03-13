@@ -1,0 +1,42 @@
+// -------------FOOTER--------------
+.footer {
+    background-color: $mitsu-black;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: $mitsu-white;
+
+    &__list {
+        display: flex;
+
+        &__item {
+
+            & a {
+                margin-right: 10px;
+                color: $mitsu-white;
+                font-size: 12px;
+            }
+        }
+    }
+
+    &__copyright {
+        font-size: 12px;
+    }
+}
+
+// -------------MEDIA QUERIES FOOTER--------------
+
+@media (min-width: 576px) {
+    .footer {
+        flex-direction: row;
+        padding: 45px 15px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .footer {
+        padding: 45px;
+    }
+}

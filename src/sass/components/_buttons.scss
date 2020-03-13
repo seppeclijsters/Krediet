@@ -1,0 +1,248 @@
+// -------------NORMAL PAGE BUTTONS--------------
+// MEDIUM BUTTON - FIXED WIDTH
+
+.btn-medium {
+    min-width: 260px;
+    min-height: 50px;
+    padding: 18px 0;
+    text-align: center;
+    font-family: mmc-bold;
+    font-size: 14px;
+    letter-spacing: 3.01px;
+    text-transform: uppercase;
+    line-height: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+// SMALL BUTTON - FLEXIBLE WIDTH - PADDING 
+
+.btn-small {
+
+    margin-right: 5px;
+    padding: 18px 18px;
+    text-align: center;
+    font-family: mmc-bold;
+    font-size: 14px;
+    letter-spacing: 3.01px;
+    text-transform: uppercase;
+    line-height: 14px;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+// -------------MEDIA QUERIES NORMAL BUTTON--------------
+@media (min-width: 576px) {
+
+    .btn-medium {
+        min-width: 305px;
+        min-height: 50px;
+        padding: 18px 0;
+        text-align: center;
+        font-family: mmc-bold;
+        font-size: 14px;
+        letter-spacing: 3.01px;
+        text-transform: uppercase;
+        line-height: 14px;
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+// -------------BUTTON STYLE - HIGH PRIORITY--------------
+
+// -------------RED BUTTON - WHITE BG--------------
+
+.btn-lightbg-red {
+    background-color: $mitsu-red;
+    color: $mitsu-white;
+    transition: color .3s ease-in-out, background-position .3s ease-in-out;
+    background-image: linear-gradient(-60deg, $mitsu-black 50%, #ed0000 0);
+    background-size: 400% 400%;
+    background-position: 0 50%;
+}
+
+.btn-lightbg-red:hover {
+    text-decoration: none;
+    color: $mitsu-white;
+    background-color: $mitsu-black;
+    background-position: 100% 50%;
+}
+
+// .btn-lightbg-red:focus {
+//     background-color: $mitsu-darkgrey;
+
+// }
+
+// -------------BLACK BUTTON - WHITE BG--------------
+
+.btn-lightbg-black {
+    background-color: $mitsu-black;
+    color: $mitsu-white;
+    transition: color .3s ease-in-out, background-position .3s ease-in-out;
+    background-image: linear-gradient(-60deg, $mitsu-red 50%, $mitsu-black 0);
+    background-size: 400% 400%;
+    background-position: 0 50%;
+}
+
+.btn-lightbg-black:hover {
+    text-decoration: none;
+    color: $mitsu-white;
+    background-color: $mitsu-red;
+    background-position: 100% 50%;
+
+}
+
+// .btn-lightbg-black:focus {
+//     background-color: rgb(153, 6, 6);
+
+// }
+
+//-------------------------------------------------
+// -------------RED BUTTON - BLACK BG--------------
+
+
+.btn-darkbg-red {
+    background-color: $mitsu-red;
+    color: $mitsu-white;
+    transition: color .3s ease-in-out, background-position .3s ease-in-out;
+    background-image: linear-gradient(-60deg, $mitsu-white 50%, #ed0000 0);
+    background-size: 400% 400%;
+    background-position: 0 50%;
+}
+
+.btn-darkbg-red:hover {
+    text-decoration: none;
+    color: $mitsu-black;
+    background-color: $mitsu-white;
+    background-position: 100% 50%;
+
+}
+
+// .btn-darkbg-red:focus {
+//     background-color: $mitsu-lightgrey;
+// }
+
+
+// -------------WHITE BUTTON - BLACK BG--------------
+
+.btn-darkbg-white {
+    background-color: $mitsu-white;
+    color: $mitsu-black;
+
+}
+
+.btn-darkbg-white:hover {
+    background-color: $mitsu-red;
+    color: $mitsu-white;
+    text-decoration: none;
+
+
+}
+
+// .btn-darkbg-white:focus {
+//     background-color: rgb(153, 6, 6);
+// }
+
+
+
+
+// -------------BUTTON STYLE - MEDIUM PRIORITY--------------
+
+// -------------BLACK OUTLINE BUTTON - WHITE BG--------------
+
+.btn-lightbg-blackoutline {
+    background-color: transparent;
+    color: $mitsu-black;
+    border: $mitsu-black 2px solid;
+    padding: 16px 16px;
+    transition: color .3s ease-in-out, background-position .3s ease-in-out;
+    background-image: linear-gradient(-60deg, #000 50%, transparent 0);
+    background-size: 400% 400%;
+    background-position: 0 50%;
+}
+
+.btn-lightbg-blackoutline:hover {
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    background-position: 100% 50%;
+}
+
+// .btn-lightbg-blackoutline:focus {
+//     background-color: $mitsu-darkgrey;
+// }
+
+// -------------WHITE OUTLINE BUTTON - BLACK BG--------------
+
+.btn-darkbg-whiteoutline {
+    background-color: $mitsu-black;
+    color: $mitsu-white;
+    border: $mitsu-white 2px solid;
+    padding: 16px 16px;
+    transition: color .3s ease-in-out, background-position .3s ease-in-out;
+    background-image: linear-gradient(-60deg, #fff 50%, transparent 0);
+    background-size: 400% 400%;
+    background-position: 0 50%;
+}
+
+.btn-darkbg-whiteoutline:hover {
+    // background-color: $mitsu-white;
+    // color: $mitsu-black;
+    // text-decoration: none;
+    color: $mitsu-black;
+    background-position: 100% 50%;
+}
+
+// .btn-darkbg-whiteoutline:focus {
+//     background-color: $mitsu-lightgrey;
+//     border: $mitsu-lightgrey 2px solid;
+
+// }
+
+
+// -------------HERO HEADING BUTTON--------------
+// TRANSPARANT BUTTON 
+
+.btn-hero {
+    color: $mitsu-white;
+    border: $mitsu-white 2px solid;
+    padding: 16px 16px;
+    transition: color .3s ease-in-out, background-position .3s ease-in-out;
+    background-image: linear-gradient(-60deg, #fff 50%, transparent 0);
+    background-size: 400% 400%;
+    background-position: 0 50%;
+}
+
+.btn-hero:hover {
+    color: $mitsu-black;
+    background-position: 100% 50%;
+}
+
+// .btn-hero:focus {
+//     background-color: $mitsu-lightgrey;
+//     border: $mitsu-lightgrey 2px solid;
+// }
+
+
+.btn-margin {
+    margin-bottom: 15px;
+}
+
+// -------------A-TAG BUTTON--------------
+.red-link {
+    display: inline-block;
+    font-family: 'mmc-bold';
+    color: $mitsu-red;
+    text-transform: uppercase;
+    padding-bottom: 1px;
+    border-bottom: 1px solid $mitsu-red;
+    transition: 0.2s all ease-in;
+    letter-spacing: 3px;
+}
+
+.red-link:hover {
+    color: $mitsu-white;
+    border-bottom: 1px solid $mitsu-white;
+    transition: 0.2s all ease-in;
+}
