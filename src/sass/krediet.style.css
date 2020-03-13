@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'crimson';
+  src: url("../../assets/fonts/crimson/CrimsonText-Regular.woff") format("woff"), url("../../assets/fonts/crimson/CrimsonText-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'crimson-bold';
+  src: url("../../assets/fonts/crimson/CrimsonText-Bold.woff") format("woff"), url("../../assets/fonts/crimson/CrimsonText-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'crimson-italic';
+  src: url("../../assets/fonts/crimson/Roboto-Italic.woff") format("woff"), url("../../assets/fonts/crimson/Roboto-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url("../../assets/fonts/roboto/Roboto-Regular.woff") format("woff"), url("../../assets/fonts/roboto/Roboto-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto-bold';
+  src: url("../../assets/fonts/roboto/Roboto-Bold.woff") format("woff"), url("../../assets/fonts/roboto/Roboto-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'roboto-italic';
+  src: url("../../assets/fonts/roboto/Roboto-Italic.woff") format("woff"), url("../../assets/fonts/roboto/Roboto-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'crimson';
+}
+
+h1 {
+  font-size: 62px;
+  line-height: 64px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 56px;
+}
+
+h3 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+h4 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h5 {
+  font-size: 21px;
+  line-height: 25px;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+body {
+  font-family: 'roboto';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-nav {
+  height: 80px;
+}
+
+.main-nav__list__item a {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #222222;
+  font-family: 'roboto-bold';
+  border: 1px solid #D8E1E8;
+  text-transform: lowercase;
+}
+
+.main-nav__list__item-home {
+  background-color: #EBBD00;
+}
+
+.main-nav__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0A51A1;
+}
+
+.main-nav__logo img {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  padding: 19px;
+}
+
+.btn {
+  display: inline-block;
+  height: 50px;
+  padding: 18px 20px;
+  text-align: center;
+  line-height: 14px;
+  min-width: 160px;
+  border-radius: 24.5px;
+  color: white;
+}
+
+.btn-blue {
+  background-color: #0A51A1;
+}
+
+.btn-blue:hover {
+  background-color: #67C6DD;
+  color: white;
+}
+
+.btn-green {
+  background-color: #8B9C22;
+}
+
+.btn-green:hover {
+  background-color: #5D6061;
+  color: white;
+}
+
+header {
+  margin-top: 150px;
+}
+
+.header__intro__title {
+  font-size: 50px;
+  color: #222222;
+  line-height: 56px;
+}
+
+.header__intro__text {
+  margin: 45px 0;
+}
+
+.loan__item {
+  height: 320px;
+  border-radius: 7px;
+}
+
+.loan__woonkrediet {
+  background-color: #C3D4E7;
+}
+
+.loan__lening {
+  background-color: #8B9C22;
+}
+/*# sourceMappingURL=krediet.style.css.map */

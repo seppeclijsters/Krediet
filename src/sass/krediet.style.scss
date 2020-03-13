@@ -11,26 +11,27 @@
 
 // Layout
 // -----------------------------------------------------------------------------
-@import "layout/page.header";
-@import "layout/page.content";
-@import "layout/page.footer";
-@import "layout/forms";
-@import "layout/testritform";
+// @import "layout/page.header";
+// @import "layout/page.content";
+// @import "layout/page.footer";
+// @import "layout/forms";
+// @import "layout/testritform";
 
 
 
 // Other
 // -----------------------------------------------------------------------------
-@import "block/block";
-@import "content/node.page";
-@import "content/node.article";
+// @import "block/block";
+// @import "content/node.page";
+// @import "content/node.article";
 
 
 
 // SCSS components 
 // -----------------------------------------------------------------------------
+ @import "components/navigation"; 
 @import "components/buttons"; 
-@import "components/carrousel";
+// @import "components/carrousel";
 
 
 // Pages

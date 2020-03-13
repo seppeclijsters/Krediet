@@ -1,2 +1,34 @@
 
 
+header {
+    margin-top: 150px;
+
+}
+
+.header {
+    &__intro {
+
+        &__title {
+            font-size: 50px;
+            color: #222222;
+            line-height: 56px;
+        }
+
+        &__text {
+            margin: 45px 0;
+        }
+    }
+}
+
+.loan__item {
+    height: 320px;
+    border-radius: 7px;
+}
+
+.loan__woonkrediet {
+    background-color: #C3D4E7;
+}
+
+.loan__lening {
+    background-color: $sec-green;
+}

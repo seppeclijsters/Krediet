@@ -1,461 +1,461 @@
-// -------------CARROUSEL SECTION - INTRO--------------
-// FIRST PART 
-.carousel-models {
-  background-color: #F6F6F6;
+// // -------------CARROUSEL SECTION - INTRO--------------
+// // FIRST PART 
+// .carousel-models {
+//   background-color: #F6F6F6;
 
-  .intro-carousel {
-    .title-carousel {
-      font-size: 32px;
-      line-height: 36px;
-      font-family: mmc-bold;
-      padding: 50px 0;
-      text-align: center;
-    }
+//   .intro-carousel {
+//     .title-carousel {
+//       font-size: 32px;
+//       line-height: 36px;
+//       font-family: mmc-bold;
+//       padding: 50px 0;
+//       text-align: center;
+//     }
 
-    .p-intro-carousel {
-      text-align: center;
-    }
+//     .p-intro-carousel {
+//       text-align: center;
+//     }
 
-    .intro-btns {
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 35px 0;
+//     .intro-btns {
+//       flex-wrap: wrap;
+//       justify-content: center;
+//       padding: 35px 0;
 
-    }
-  }
-}
+//     }
+//   }
+// }
 
 
-// -------------MEDIA QUERIES CARROUSEL INTRO--------------
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-  .carousel-models {
-    .intro-carousel {
-      .title-carousel {
-        font-size: 63px;
-        line-height: 70px;
-        font-family: mmc-bold;
-        padding: 50px 0;
-        text-align: center;
-      }
+// // -------------MEDIA QUERIES CARROUSEL INTRO--------------
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { 
+//   .carousel-models {
+//     .intro-carousel {
+//       .title-carousel {
+//         font-size: 63px;
+//         line-height: 70px;
+//         font-family: mmc-bold;
+//         padding: 50px 0;
+//         text-align: center;
+//       }
       
-    }
-  }
-}
+//     }
+//   }
+// }
 
 
 
 
-@media (min-width: 768px) {
-  .carousel-models {
-    .intro-carousel {
-      .intro-btns {
-        justify-content: space-between;
+// @media (min-width: 768px) {
+//   .carousel-models {
+//     .intro-carousel {
+//       .intro-btns {
+//         justify-content: space-between;
 
 
-      }
-    }
-  }
+//       }
+//     }
+//   }
 
-  .btn-margin {
-    margin-bottom: 0;
-  }
-}
+//   .btn-margin {
+//     margin-bottom: 0;
+//   }
+// }
 
-@media (min-width: 992px) {
-  .carousel-models {
-    .intro-carousel {
-      .intro-btns {
+// @media (min-width: 992px) {
+//   .carousel-models {
+//     .intro-carousel {
+//       .intro-btns {
 
-        justify-content: space-between;
-
-
-      }
-    }
-  }
-}
+//         justify-content: space-between;
 
 
-// -------------CARROUSEL SWIPER JS--------------
-// SECOND PART 
+//       }
+//     }
+//   }
+// }
 
-.swiper-container{
-  width: 100%;
-  min-height: 500px;
-  padding: 50px 0;
 
-  a {
-    color: $mitsu-black;
-  }
-}
+// // -------------CARROUSEL SWIPER JS--------------
+// // SECOND PART 
 
-.swiper-slide {
-  opacity: .4;
-  // width: 45% !important;
-  text-align: left;
-  font-size: 18px;
-  background: #F6F6F6;
-  /* Center slide text vertically */
-  transition: opacity .8s;
-  height: auto;
+// .swiper-container{
+//   width: 100%;
+//   min-height: 500px;
+//   padding: 50px 0;
+
+//   a {
+//     color: $mitsu-black;
+//   }
+// }
+
+// .swiper-slide {
+//   opacity: .4;
+//   // width: 45% !important;
+//   text-align: left;
+//   font-size: 18px;
+//   background: #F6F6F6;
+//   /* Center slide text vertically */
+//   transition: opacity .8s;
+//   height: auto;
   
  
 
   
   
 
-  .h3-carousel {
-    text-transform: capitalize;
-    padding: 25px 0;
-    font-size: 21px;
-    line-height: 30px;
-    opacity: 0;
-  }
+//   .h3-carousel {
+//     text-transform: capitalize;
+//     padding: 25px 0;
+//     font-size: 21px;
+//     line-height: 30px;
+//     opacity: 0;
+//   }
 
-  p {
-    transition: opacity .2s;
-    opacity: 0;
-    font-size: 15px;
-    line-height: 27px;
-    margin-bottom: 25px;
-
-
-  }
-
-  .btn-small {
-    opacity: 0;
-  }
-
-  .main-carousel__btn{
-
-      position: absolute;
-  }
-}
+//   p {
+//     transition: opacity .2s;
+//     opacity: 0;
+//     font-size: 15px;
+//     line-height: 27px;
+//     margin-bottom: 25px;
 
 
+//   }
+
+//   .btn-small {
+//     opacity: 0;
+//   }
+
+//   .main-carousel__btn{
+
+//       position: absolute;
+//   }
+// }
 
 
-.pan-sep{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-}
-
-// -------------SWIPER DEFAULT CLASSES--------------
-// PREVIOUS - ACTIVE - NEXT
-
-.carousel-btns {
-  position: relative;
-  bottom: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 20px;
 
 
-  .car-btn {
-    line-height: 0;
-    outline: none;
-    cursor: pointer;
-    padding: 20px;
-    transition: 0.2s all linear;
-  }
+// .pan-sep{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
 
-  .car-btn:hover {
-    transition: 0.2s all ease-in;
+// }
 
-    #svg-btn-right {
-      fill: red;
-      transition: all 0.2s;
+// // -------------SWIPER DEFAULT CLASSES--------------
+// // PREVIOUS - ACTIVE - NEXT
 
-    }
-
-    #svg-btn-left {
-      fill: red;
-      transition: all 0.2s;
-
-    }
-
-  }
+// .carousel-btns {
+//   position: relative;
+//   bottom: 0;
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+//   padding: 20px;
 
 
-  .button-next {
-    position: absolute;
-    right: 20px;
-    display: flex;
-    transition: 0.2s all linear;
+//   .car-btn {
+//     line-height: 0;
+//     outline: none;
+//     cursor: pointer;
+//     padding: 20px;
+//     transition: 0.2s all linear;
+//   }
 
-    .meer {
-      padding-right: 5px;
-      opacity: 0;
-      transition: opacity 0.2;
-    }
+//   .car-btn:hover {
+//     transition: 0.2s all ease-in;
 
-  }
+//     #svg-btn-right {
+//       fill: red;
+//       transition: all 0.2s;
 
-  .button-next:hover {
-    right: 10px;
-    padding-left: 30px;
+//     }
 
-    .meer {
-      opacity: 1;
-      color: red;
-      transition: opacity 0.2 ease-in;
-    }
-  }
+//     #svg-btn-left {
+//       fill: red;
+//       transition: all 0.2s;
 
+//     }
 
-}
-
-// -------------SWIPER ARROW--------------
+//   }
 
 
-.model-slides {
-  width: 33.33%;
+//   .button-next {
+//     position: absolute;
+//     right: 20px;
+//     display: flex;
+//     transition: 0.2s all linear;
 
-}
+//     .meer {
+//       padding-right: 5px;
+//       opacity: 0;
+//       transition: opacity 0.2;
+//     }
 
-.swiper-slide-prev {
-  opacity: 1;
+//   }
 
-  p {
-    opacity: 0;
-  }
+//   .button-next:hover {
+//     right: 10px;
+//     padding-left: 30px;
 
-  .h3-carousel {
-    opacity: 1;
-  }
+//     .meer {
+//       opacity: 1;
+//       color: red;
+//       transition: opacity 0.2 ease-in;
+//     }
+//   }
 
-}
 
-.swiper-slide-next {
-  opacity: 1;
+// }
 
-  p {
-    opacity: 0;
-  }
+// // -------------SWIPER ARROW--------------
 
-  .h3-carousel {
-    opacity: 1;
-  }
 
-}
+// .model-slides {
+//   width: 33.33%;
 
-.swiper-slide-active {
-  opacity: 1;
+// }
 
-  p {
-    opacity: 1;
-  }
+// .swiper-slide-prev {
+//   opacity: 1;
 
-  .btn-small {
-    opacity: 1;
-  }
+//   p {
+//     opacity: 0;
+//   }
 
-  .h3-carousel {
-    opacity: 1;
-  }
-}
-// -------------MEDIA QUERIES SWIPER JS--------------
+//   .h3-carousel {
+//     opacity: 1;
+//   }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-  .swiper-slide {
-    .h3-carousel {
-      text-transform: capitalize;
-      padding: 25px 0;
-      font-size: 24px;
-      line-height: 30px;
-    }
+// }
+
+// .swiper-slide-next {
+//   opacity: 1;
+
+//   p {
+//     opacity: 0;
+//   }
+
+//   .h3-carousel {
+//     opacity: 1;
+//   }
+
+// }
+
+// .swiper-slide-active {
+//   opacity: 1;
+
+//   p {
+//     opacity: 1;
+//   }
+
+//   .btn-small {
+//     opacity: 1;
+//   }
+
+//   .h3-carousel {
+//     opacity: 1;
+//   }
+// }
+// // -------------MEDIA QUERIES SWIPER JS--------------
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { 
+//   .swiper-slide {
+//     .h3-carousel {
+//       text-transform: capitalize;
+//       padding: 25px 0;
+//       font-size: 24px;
+//       line-height: 30px;
+//     }
   
     
 
-  }
-}
+//   }
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  .swiper-slide {
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//   .swiper-slide {
 
-    p {
+//     p {
 
-      margin-bottom: 35px;
+//       margin-bottom: 35px;
 
-    }
+//     }
 
-  }
+//   }
 
-}
+// }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  .swiper-slide {
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//   .swiper-slide {
 
 
 
-    p {
-      opacity: 0;
-      font-size: 16px;
-      line-height: 28px;
+//     p {
+//       opacity: 0;
+//       font-size: 16px;
+//       line-height: 28px;
       
 
-    }
-  }
+//     }
+//   }
 
-  .swiper-slide-prev {
-    opacity: 1;
+//   .swiper-slide-prev {
+//     opacity: 1;
 
-    p {
-      opacity: 1;
-    }
+//     p {
+//       opacity: 1;
+//     }
 
-    .btn-small {
-      opacity: 1;
-    }
+//     .btn-small {
+//       opacity: 1;
+//     }
 
-  }
+//   }
 
-  .swiper-slide-next {
-    opacity: 1;
+//   .swiper-slide-next {
+//     opacity: 1;
 
-    p {
-      opacity: 1;
-    }
+//     p {
+//       opacity: 1;
+//     }
 
-    .btn-small {
-      opacity: 1;
-    }
-  }
+//     .btn-small {
+//       opacity: 1;
+//     }
+//   }
 
-  .swiper-slide-active {
-    opacity: 1;
+//   .swiper-slide-active {
+//     opacity: 1;
 
-    p {
-      opacity: 1;
-    }
+//     p {
+//       opacity: 1;
+//     }
 
-    .btn-small {
-      opacity: 1;
-    }
-  }
-}
-
-
-
-// -------------CARROUSEL TESTRIT --------------
-
-.testrit-carousel-models {
-  background-color: White;
-}
-
-.testrit-slider {
-  position: relative;
-  padding: 0;
-  background-color: white;
-  min-height: 450px;
-
-  & .swiper-slide {
-    opacity: 1;
-    background-color: white;
-  }
-
-  & .h3-carousel {
-    opacity: 1;
-    text-align: center;
-    padding: 5px 0;
-  }
-
-  &__price {
-    text-align: center;
-    opacity: 1!important;
-    // margin-bottom: 10px!important;
-  }
-
-  & label {
-    cursor: pointer;
-    transition: all .5s;
-    border: none;
-  }
-
-  & .carousel-btns {
-    position: relative;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-  }
-}
-
-.invisible-radio  {
-  /* per https://a11yproject.com/posts/how-to-hide-content/ */
-  position: absolute;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-}
-
-.swiper__selected-car {
-    transition: opacity .5s;
-    opacity: 0;
-    position: absolute;
-    top: 20px;
-    left: calc(50% - 80px);
-    border: 1px solid transparent;
-    background-color: #ed0000;
-    color: white;
-    padding: 1px 20px 3px;
-    text-align: center;
-    font-size: .75rem;
-    line-height: 1.125rem;
-    letter-spacing: .125rem;
-    text-transform: uppercase;
-    font-family: mmc-bold;
-    border-radius: 5px;
-    width: 120px;
-}
+//     .btn-small {
+//       opacity: 1;
+//     }
+//   }
+// }
 
 
-.invisible-radio:checked ~ label .swiper__selected-car{ 
-  opacity: 1;
-} 
 
-.invisible-radio:checked ~ label { 
-  background-color: #f3f3f3;
-} 
+// // -------------CARROUSEL TESTRIT --------------
 
-.invisible-radio:not(:checked) + label {
-  cursor: pointer;
-}
+// .testrit-carousel-models {
+//   background-color: White;
+// }
 
-.invisible-radio:not(:checked) + label:hover {
-  background-color: #f3f3f3;
-}
+// .testrit-slider {
+//   position: relative;
+//   padding: 0;
+//   background-color: white;
+//   min-height: 450px;
 
-// -------------MEDIA QUERIES TESTRIT--------------
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
+//   & .swiper-slide {
+//     opacity: 1;
+//     background-color: white;
+//   }
+
+//   & .h3-carousel {
+//     opacity: 1;
+//     text-align: center;
+//     padding: 5px 0;
+//   }
+
+//   &__price {
+//     text-align: center;
+//     opacity: 1!important;
+//     // margin-bottom: 10px!important;
+//   }
+
+//   & label {
+//     cursor: pointer;
+//     transition: all .5s;
+//     border: none;
+//   }
+
+//   & .carousel-btns {
+//     position: relative;
+//     top: 0;
+//     width: 100%;
+//     z-index: 10;
+//   }
+// }
+
+// .invisible-radio  {
+//   /* per https://a11yproject.com/posts/how-to-hide-content/ */
+//   position: absolute;
+//   height: 1px;
+//   width: 1px;
+//   overflow: hidden;
+//   clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+//   clip: rect(1px, 1px, 1px, 1px);
+// }
+
+// .swiper__selected-car {
+//     transition: opacity .5s;
+//     opacity: 0;
+//     position: absolute;
+//     top: 20px;
+//     left: calc(50% - 80px);
+//     border: 1px solid transparent;
+//     background-color: #ed0000;
+//     color: white;
+//     padding: 1px 20px 3px;
+//     text-align: center;
+//     font-size: .75rem;
+//     line-height: 1.125rem;
+//     letter-spacing: .125rem;
+//     text-transform: uppercase;
+//     font-family: mmc-bold;
+//     border-radius: 5px;
+//     width: 120px;
+// }
 
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-  .testrit-slider {
+// .invisible-radio:checked ~ label .swiper__selected-car{ 
+//   opacity: 1;
+// } 
 
-    padding: 60px 0;
+// .invisible-radio:checked ~ label { 
+//   background-color: #f3f3f3;
+// } 
+
+// .invisible-radio:not(:checked) + label {
+//   cursor: pointer;
+// }
+
+// .invisible-radio:not(:checked) + label:hover {
+//   background-color: #f3f3f3;
+// }
+
+// // -------------MEDIA QUERIES TESTRIT--------------
+// // Extra small devices (portrait phones, less than 576px)
+// // No media query since this is the default in Bootstrap
+
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { 
+//   .testrit-slider {
+
+//     padding: 60px 0;
  
 
-    }
- }
+//     }
+//  }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  
-    // body{
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {  
+//     // body{
      
-    // }
-}
+//     // }
+// }
 
 
-.swiper-button-disabled {
-  cursor: not-allowed!important;
-}
+// .swiper-button-disabled {
+//   cursor: not-allowed!important;
+// }

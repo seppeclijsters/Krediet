@@ -1,505 +1,505 @@
-.row {
-    margin: 0;
-}
+// .row {
+//     margin: 0;
+// }
 
 
-// -------------OPENING SECTION--------------
+// // -------------OPENING SECTION--------------
 
-.opening {
+// .opening {
 
 
-    background-color: black;
-    color: white;
-    align-items: center;
-    text-align: center;
+//     background-color: black;
+//     color: white;
+//     align-items: center;
+//     text-align: center;
 
-    .opening-wrapper {
-        padding: 60px 0;
+//     .opening-wrapper {
+//         padding: 60px 0;
 
-        .h2-opening{
-            padding-bottom: 15px;
-        }
-        .opening-content{
-            font-size: 18px;
-            line-height: 30px;
-        }
+//         .h2-opening{
+//             padding-bottom: 15px;
+//         }
+//         .opening-content{
+//             font-size: 18px;
+//             line-height: 30px;
+//         }
 
-        .opening-contact-email {
-            color: white;
-            text-decoration-line: underline;
-            word-break: break-all;
-            font-size: 16px;
+//         .opening-contact-email {
+//             color: white;
+//             text-decoration-line: underline;
+//             word-break: break-all;
+//             font-size: 16px;
             
-        }
+//         }
 
-        .opening-contact-email{
-            color: whitesmoke;
-        }
+//         .opening-contact-email{
+//             color: whitesmoke;
+//         }
     
-        .opening-btn {
-            margin-top: 30px;
-        }
+//         .opening-btn {
+//             margin-top: 30px;
+//         }
 
-        .phone-link{
-            color: white; 
-            cursor: pointer;
+//         .phone-link{
+//             color: white; 
+//             cursor: pointer;
             
 
-        }
+//         }
 
-        .phone-link:hover{
-             color: whitesmoke
-        }
-    }
-
-    
+//         .phone-link:hover{
+//              color: whitesmoke
+//         }
+//     }
 
     
-}
 
-// -------------MEDIA QUERIES OPENING SECTION--------------
+    
+// }
+
+// // -------------MEDIA QUERIES OPENING SECTION--------------
 
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-    .opening{
-        .opening-contact-email{
-            font-size: 16px;
-        }
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { 
+//     .opening{
+//         .opening-contact-email{
+//             font-size: 16px;
+//         }
 
-    .opening-content{
-        font-size: 21px;
-        line-height: 36px;
-    }
-    .opening-contact-email {
-      font-size: 18px;
+//     .opening-content{
+//         font-size: 21px;
+//         line-height: 36px;
+//     }
+//     .opening-contact-email {
+//       font-size: 18px;
         
-    }
-    }
- }
-// Small devices (landscape phones, 768px and up)
-@media (min-width: 768px) {
-    .opening {
-        text-align: left;
-    }
-}
+//     }
+//     }
+//  }
+// // Small devices (landscape phones, 768px and up)
+// @media (min-width: 768px) {
+//     .opening {
+//         text-align: left;
+//     }
+// }
 
-// -------------DEALER MESSAGE SECTION--------------
+// // -------------DEALER MESSAGE SECTION--------------
 
-.dealer-message {
-    background-color: $mitsu-white;
-
-
-    .message-wrapper {
-        padding: 50px 0;
-    }
-
-    .p-dealer-message {
-        padding: 30px 0;
-    }
-
-    .readmore-btn {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
-
-// -------------MEDIA QUERIES DEALER MESSAGE SECTION--------------
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    .dealer-message {
-
-        .readmore-btn {
-            justify-content: left;
-        }
-    }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    .dealer-message {
-
-        .readmore-btn {
-            justify-content: flex-end;
-        }
-    }
-}
+// .dealer-message {
+//     background-color: $mitsu-white;
 
 
+//     .message-wrapper {
+//         padding: 50px 0;
+//     }
+
+//     .p-dealer-message {
+//         padding: 30px 0;
+//     }
+
+//     .readmore-btn {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//     }
+// }
+
+// // -------------MEDIA QUERIES DEALER MESSAGE SECTION--------------
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//     .dealer-message {
+
+//         .readmore-btn {
+//             justify-content: left;
+//         }
+//     }
+// }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//     .dealer-message {
+
+//         .readmore-btn {
+//             justify-content: flex-end;
+//         }
+//     }
+// }
 
 
 
-// -------------DEALER DETAIL SECTION--------------
-
-.dealer-detail {
-    background-color: $mitsu-black;
-    color: $mitsu-white;
-
-    &__image {
-        background-image: url('../../assets/img/dealer_detail.png');
-        background-size: cover;
-        background-position: center;
-        height: 250px;
-        width: 100%;
-    }
-
-    &__info {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-
-    &__info{
-        &__dealer{
-            font-size: 36px;
-            line-height: 45px;
-        }
-
-        &__title {
-            padding-bottom: 30px;
-        }
-        &__text {
-            padding: 30px 0;
-        }
-
-    }
-}
-
-@media (min-width: 576px) { 
-    .dealer-detail {
-        background-color: $mitsu-black;
-        color: $mitsu-white;
 
 
-        &__image {
-            height: 540px;
-        }
+// // -------------DEALER DETAIL SECTION--------------
 
-        &__info {
-            padding: 8%;
+// .dealer-detail {
+//     background-color: $mitsu-black;
+//     color: $mitsu-white;
 
-            &__dealer{
-                font-size: 42px;
-                line-height: 45px;
-            }
+//     &__image {
+//         background-image: url('../../assets/img/dealer_detail.png');
+//         background-size: cover;
+//         background-position: center;
+//         height: 250px;
+//         width: 100%;
+//     }
+
+//     &__info {
+//         padding-top: 50px;
+//         padding-bottom: 50px;
+//     }
+
+//     &__info{
+//         &__dealer{
+//             font-size: 36px;
+//             line-height: 45px;
+//         }
+
+//         &__title {
+//             padding-bottom: 30px;
+//         }
+//         &__text {
+//             padding: 30px 0;
+//         }
+
+//     }
+// }
+
+// @media (min-width: 576px) { 
+//     .dealer-detail {
+//         background-color: $mitsu-black;
+//         color: $mitsu-white;
+
+
+//         &__image {
+//             height: 540px;
+//         }
+
+//         &__info {
+//             padding: 8%;
+
+//             &__dealer{
+//                 font-size: 42px;
+//                 line-height: 45px;
+//             }
     
-        }
-    }
-}
+//         }
+//     }
+// }
 
 
 
 
-// -------------DEALER LATEST NEWS BLOCK--------------
+// // -------------DEALER LATEST NEWS BLOCK--------------
 
-.latest-news {
-    background-color: $mitsu-white;
+// .latest-news {
+//     background-color: $mitsu-white;
 
-    &__uppertitle {
-        text-align: center;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
+//     &__uppertitle {
+//         text-align: center;
+//         padding-top: 70px;
+//         padding-bottom: 70px;
+//     }
 
-    &__link {
-        color: $mitsu-black;
-        text-decoration: none;
+//     &__link {
+//         color: $mitsu-black;
+//         text-decoration: none;
 
-        &:hover {
-            color: $mitsu-black;
-        }
-    }
+//         &:hover {
+//             color: $mitsu-black;
+//         }
+//     }
 
-    &__image {
-        width: 100%;
+//     &__image {
+//         width: 100%;
         
-    }
+//     }
     
-    &__title {
-        padding-top: 30px;
-        font-size: 24px;
-        line-height: 30px;
-    }
+//     &__title {
+//         padding-top: 30px;
+//         font-size: 24px;
+//         line-height: 30px;
+//     }
 
-    &__text {
-        padding: 30px 0 40px;
-    }
+//     &__text {
+//         padding: 30px 0 40px;
+//     }
 
-    &__button{
-        margin-bottom: 40px;
-    }
+//     &__button{
+//         margin-bottom: 40px;
+//     }
 
-    &__button-container {
-        display: flex;
-        justify-content: center;
-        padding: 0 0 40px;
-    }
-}
+//     &__button-container {
+//         display: flex;
+//         justify-content: center;
+//         padding: 0 0 40px;
+//     }
+// }
 
-@media (min-width: 576px) { 
-    .latest-news {
+// @media (min-width: 576px) { 
+//     .latest-news {
 
-        &__button-container {
-            padding: 40px 0 80px;
-        }
-    }
-}
+//         &__button-container {
+//             padding: 40px 0 80px;
+//         }
+//     }
+// }
 
-@media (min-width: 992px) { 
-    .latest-news {
+// @media (min-width: 992px) { 
+//     .latest-news {
 
-        &__uppertitle {
-            text-align: center;
-            padding-top: 100px;
-            padding-bottom: 100px;
-        }
-    }
-}
+//         &__uppertitle {
+//             text-align: center;
+//             padding-top: 100px;
+//             padding-bottom: 100px;
+//         }
+//     }
+// }
 
-// -------------DEALER CONTACT SECTION--------------
-// FIRST PART
-.dealer-contact {
-    background-color: $mitsu-white;
+// // -------------DEALER CONTACT SECTION--------------
+// // FIRST PART
+// .dealer-contact {
+//     background-color: $mitsu-white;
 
-    .contact-title {
-        padding: 60px 0 50px;
-    }
+//     .contact-title {
+//         padding: 60px 0 50px;
+//     }
 
-    .adress{
-        font-size: 18px;
-        line-height: 30px;
-    }
+//     .adress{
+//         font-size: 18px;
+//         line-height: 30px;
+//     }
 
 
-    .contact-info-wrapper{
-        padding-top: 30px;
-    }
-    .contact-info {
-        padding: 0 12px; 
-        font-size: 12px;
-        line-height: 18px;
-        font-family: mmc-medium;
-        text-transform: uppercase;
-        letter-spacing: 1.7px;
+//     .contact-info-wrapper{
+//         padding-top: 30px;
+//     }
+//     .contact-info {
+//         padding: 0 12px; 
+//         font-size: 12px;
+//         line-height: 18px;
+//         font-family: mmc-medium;
+//         text-transform: uppercase;
+//         letter-spacing: 1.7px;
    
         
-    }
+//     }
 
-    .contact-btns {
-        flex-wrap: wrap;
-        justify-content: center;
-        padding: 35px 0 50px;
-    }
+//     .contact-btns {
+//         flex-wrap: wrap;
+//         justify-content: center;
+//         padding: 35px 0 50px;
+//     }
 
-    .h2-contact {
-        padding: 0 0 20px
-    }
+//     .h2-contact {
+//         padding: 0 0 20px
+//     }
 
-    .contact-route-link {
-        color: $mitsu-anthragrey;
-        text-decoration: underline;
-        transition: 2s linear;
+//     .contact-route-link {
+//         color: $mitsu-anthragrey;
+//         text-decoration: underline;
+//         transition: 2s linear;
         
-    }
+//     }
 
-    .contact-route-link:hover {
-        color: black;
-        text-decoration: none;
-        transition: 1s linear;
-    }
+//     .contact-route-link:hover {
+//         color: black;
+//         text-decoration: none;
+//         transition: 1s linear;
+//     }
 
-    // -------------DEALER CONTACT SECTION - HOURS--------------
-    // SECOND PART - TABLES 
+//     // -------------DEALER CONTACT SECTION - HOURS--------------
+//     // SECOND PART - TABLES 
 
-    .contact-opening-hours {
-        padding-bottom: 15px;
-    }
+//     .contact-opening-hours {
+//         padding-bottom: 15px;
+//     }
 
-    .h3-contact-hours {
-        padding: 5px 0;
-        font-size: 21px;
-        line-height: 26px;
-    }
+//     .h3-contact-hours {
+//         padding: 5px 0;
+//         font-size: 21px;
+//         line-height: 26px;
+//     }
 
-    .contact-days {
-        text-transform: capitalize;
+//     .contact-days {
+//         text-transform: capitalize;
 
-    }
+//     }
 
-    .p-day {
-        padding: 0 20px 0 0;
-    }
+//     .p-day {
+//         padding: 0 20px 0 0;
+//     }
 
-    .contact-blocks {
+//     .contact-blocks {
 
-        border-top: 1px solid $mitsu-lightgrey;
-        padding: 15px;
-        font-size: 13px;
-    }
+//         border-top: 1px solid $mitsu-lightgrey;
+//         padding: 15px;
+//         font-size: 13px;
+//     }
 
-    // -------------DEALER CONTACT DETAIL - MEDIA BUTTONS--------------
-    // SECOND PART - EMAILS AND MULTIMEDIA BUTTONS
+//     // -------------DEALER CONTACT DETAIL - MEDIA BUTTONS--------------
+//     // SECOND PART - EMAILS AND MULTIMEDIA BUTTONS
 
-    .contact-details {
-        a {
-            color: $mitsu-black;
-            cursor: pointer;
-        }
+//     .contact-details {
+//         a {
+//             color: $mitsu-black;
+//             cursor: pointer;
+//         }
 
-        a:hover {
-            color: $mitsu-anthragrey;
-        }
-    }
+//         a:hover {
+//             color: $mitsu-anthragrey;
+//         }
+//     }
 
-    .media-btns {
-        text-align: center;
-        padding: 30px 0;
-    }
+//     .media-btns {
+//         text-align: center;
+//         padding: 30px 0;
+//     }
 
-    .media-btns:hover {
-        color: $mitsu-anthragrey
-    }
+//     .media-btns:hover {
+//         color: $mitsu-anthragrey
+//     }
 
-}
+// }
 
-// -------------MEDIA QUERIES DEALER CONTACT DETAIL--------------
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    .contact-opening-hours {
-        padding: 15px;
-    }
+// // -------------MEDIA QUERIES DEALER CONTACT DETAIL--------------
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) {
+//     .contact-opening-hours {
+//         padding: 15px;
+//     }
 
   
 
-    .dealer-contact {
-        .contact-blocks {
+//     .dealer-contact {
+//         .contact-blocks {
 
-            border-top: 1px solid $mitsu-lightgrey;
-            padding: 15px;
-            font-size: 16px;
-        }
-        .h3-contact-hours {
-            padding: 5px 0;
-            font-size: 24px;
-            line-height: 26px;
-        }
+//             border-top: 1px solid $mitsu-lightgrey;
+//             padding: 15px;
+//             font-size: 16px;
+//         }
+//         .h3-contact-hours {
+//             padding: 5px 0;
+//             font-size: 24px;
+//             line-height: 26px;
+//         }
 
-        .adress{
-            font-size: 21px;
-            line-height: 36px;
-        }
-        .contact-info {
-            padding: 0 12px; 
-            font-size: 12px;
-            line-height: 18px;
-            font-family: mmc-medium;
-            text-transform: uppercase;
-            letter-spacing: 1.7px;
+//         .adress{
+//             font-size: 21px;
+//             line-height: 36px;
+//         }
+//         .contact-info {
+//             padding: 0 12px; 
+//             font-size: 12px;
+//             line-height: 18px;
+//             font-family: mmc-medium;
+//             text-transform: uppercase;
+//             letter-spacing: 1.7px;
             
-        }
-    }
+//         }
+//     }
 
-}
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-    .dealer-contact {
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {
+//     .dealer-contact {
 
-        .contact-opening-hours {
-            padding: 40px 20px 60px 20px;
-        }
+//         .contact-opening-hours {
+//             padding: 40px 20px 60px 20px;
+//         }
 
-        .contact-btns {
-            flex-wrap: wrap;
-            justify-content: space-between;
-            padding: 35px 0 50px;
-        }
+//         .contact-btns {
+//             flex-wrap: wrap;
+//             justify-content: space-between;
+//             padding: 35px 0 50px;
+//         }
 
-        .h3-contact-hours {
-            padding: 20px 0;
-        }
+//         .h3-contact-hours {
+//             padding: 20px 0;
+//         }
 
-        .contact-blocks:first-child {
-            border-right: 1px solid $mitsu-lightgrey;
+//         .contact-blocks:first-child {
+//             border-right: 1px solid $mitsu-lightgrey;
 
-        }
+//         }
 
-        .media-btns {
-            text-align: left;
-        }
-    }
-
-
-
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-    .dealer-contact {
-        .contact-btns {
-            justify-content: space-between;
-        }
-    }
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-    .dealer-contact {
-        .contact-blocks:nth-child(2) {
-            border-right: 1px solid $mitsu-lightgrey;
-
-        }
-
-        .contact-opening-hours {
-            padding: 30px 50px 80px;
-        }
-    }
-}
+//         .media-btns {
+//             text-align: left;
+//         }
+//     }
 
 
 
+// }
 
-// -------------GOOGLE MAPS--------------
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) {
+//     .dealer-contact {
+//         .contact-btns {
+//             justify-content: space-between;
+//         }
+//     }
+// }
 
-#map {
-    height: 400px;
-}
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {
+//     .dealer-contact {
+//         .contact-blocks:nth-child(2) {
+//             border-right: 1px solid $mitsu-lightgrey;
 
-#google-marker {
-    width: 60px;
-}
+//         }
+
+//         .contact-opening-hours {
+//             padding: 30px 50px 80px;
+//         }
+//     }
+// }
 
 
-// -------------USED MEDIA QUERIES--------------
-/* 
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
 
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
-    body{
+// // -------------GOOGLE MAPS--------------
 
-    }
- }
+// #map {
+//     height: 400px;
+// }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {  
-    body{
+// #google-marker {
+//     width: 60px;
+// }
+
+
+// // -------------USED MEDIA QUERIES--------------
+// /* 
+// // Extra small devices (portrait phones, less than 576px)
+// // No media query since this is the default in Bootstrap
+
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { 
+//     body{
+
+//     }
+//  }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) {  
+//     body{
      
-    }
-}
+//     }
+// }
 
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
-    body{
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { 
+//     body{
  
-    }
- }
+//     }
+//  }
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {  
-    body{
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) {  
+//     body{
  
-    }
-} */
+//     }
+// } */
