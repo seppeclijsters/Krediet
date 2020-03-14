@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="52px" viewBox="0 0 58 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>real-estate-favorite-heart-house</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g class="svg-stroke" id="03A-Woonkrediet" transform="translate(-241.000000, -590.000000)" stroke="#222222" stroke-width="1.5">
+            <g id="INTRO-+-PRODUCTS" transform="translate(0.000000, 80.000000)">
+                <g id="PRODUCT-GRID" transform="translate(136.000000, 456.000000)">
+                    <g id="real-estate-favorite-heart-house" transform="translate(106.000000, 55.000000)">
+                        <path d="M29.8359919,49.1651703 C29.3735653,49.6956509 28.7050741,50 28.0023201,50 C27.299566,50 26.6310749,49.6956509 26.1686483,49.1651703 L4.13779988,23.855129 C-0.156627797,19.6318581 -1.22845199,13.1070131 1.4883511,7.7263247 L1.4883511,7.7263247 C3.55924177,3.69755665 7.41762605,0.895906443 11.8818029,0.179430866 C16.3459798,-0.53704471 20.8840224,0.917025659 24.1060719,4.09630624 L28.0023201,7.66529547 L31.8985683,4.10362974 C35.1201552,0.924339951 39.6578762,-0.529768801 44.121722,0.186730774 C48.5855678,0.903230349 52.4435406,3.70494639 54.5138539,7.7336482 L54.5138539,7.7336482 C57.2268506,13.1120777 56.1563115,19.6321327 51.8668403,23.855129 L29.8359919,49.1651703 Z" id="Path"></path>
+                        <path d="M25.0212766,33.3333333 L25.0212766,27.3809524 C25.0212766,25.4085068 26.6216205,23.8095238 28.5957447,23.8095238 C30.5698689,23.8095238 32.1702128,25.4085068 32.1702128,27.3809524 L32.1702128,33.3333333" id="Path"></path>
+                        <polyline id="Path" points="20.2553191 19.047619 20.2553191 33.3333333 36.9361702 33.3333333 36.9361702 19.047619"></polyline>
+                        <polyline id="Path" points="15.4893617 23.8095238 28.5957447 11.9047619 41.7021277 23.8095238"></polyline>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

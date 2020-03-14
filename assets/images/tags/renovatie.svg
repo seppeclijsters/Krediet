@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="50px" viewBox="0 0 57 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>construction-house-1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g class="svg-stroke" id="03A-Woonkrediet" transform="translate(-1141.000000, -592.000000)" stroke="#222222" stroke-width="1.5">
+            <g id="INTRO-+-PRODUCTS" transform="translate(0.000000, 80.000000)">
+                <g id="PRODUCT-GRID" transform="translate(136.000000, 456.000000)">
+                    <g id="construction-house-1" transform="translate(1005.000000, 55.000000)">
+                        <polyline id="Path" points="55.8125 23.8095238 1.1875 23.8095238 14.25 2.38095238 27.3125 23.8095238"></polyline>
+                        <path d="M23.75,2.38095238 L36.8125,23.8095238" id="Path"></path>
+                        <path d="M33.25,2.38095238 L46.3125,23.8095238" id="Path"></path>
+                        <path d="M27.3125,30.952381 L27.3125,23.8095238" id="Path"></path>
+                        <path d="M1.1875,23.8095238 L1.1875,30.952381" id="Path"></path>
+                        <path d="M14.25,2.38095238 L43.9375,2.38095238" id="Path"></path>
+                        <path d="M18.603375,9.52380952 L48.6875,9.52380952" id="Path"></path>
+                        <path d="M22.959125,16.6666667 L53.4375,16.6666667" id="Path"></path>
+                        <path d="M26.125,50 L54.625,50 C55.2808381,50 55.8125,49.4670057 55.8125,48.8095238 L55.8125,39.2857143 C55.8125,38.6282324 55.2808381,38.0952381 54.625,38.0952381 L36.8125,38.0952381" id="Path"></path>
+                        <path d="M36.8125,23.8095238 L36.8125,38.0952381" id="Path"></path>
+                        <path d="M46.3125,23.8095238 L46.3125,38.0952381" id="Path"></path>
+                        <rect id="Rectangle" x="1.1875" y="45.2380952" width="26.125" height="4.76190476" rx="0.5"></rect>
+                        <rect id="Rectangle" x="5.9375" y="40.4761905" width="26.125" height="4.76190476" rx="0.5"></rect>
+                        <rect id="Rectangle" x="1.1875" y="35.7142857" width="26.125" height="4.76190476" rx="0.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
