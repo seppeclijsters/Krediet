@@ -1,7 +1,7 @@
 
 
 header {
-    margin-top: 150px;
+    margin-top: 55px;
 
 }
 
@@ -9,13 +9,20 @@ header {
     &__intro {
 
         &__title {
-            font-size: 50px;
             color: #222222;
-            line-height: 56px;
         }
 
         &__text {
-            margin: 45px 0;
+            margin: 20px 0;
+        }
+    }
+
+    &__image {
+
+        margin: 30px 0;
+
+        & img {
+            height: 200px;
         }
     }
 }
@@ -31,4 +38,62 @@ header {
 
 .loan__lening {
     background-color: $sec-green;
+}
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    header {
+        margin-top: 120px;
+    }
+
+    .header {
+
+        &__intro {
+    
+            &__text {
+                margin: 45px 0;
+            }
+        }
+    
+        &__image {
+    
+            & img {
+                height: 260px;
+            }
+        }
+
+        &__text {
+            margin: 45px 0;
+        }
+    }
+
+}
+
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    header {
+        margin-top: 150px;
+    }
+
+    .header {
+
+        &__image {
+
+            margin: 0;
+
+            & img {
+                height: auto;
+            }
+        }
+    }
 }

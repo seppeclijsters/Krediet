@@ -9,11 +9,13 @@ h5 {
     font-family: 'crimson';
 }
 
+// Hoofdtitels: woonkrediet -- lening op afbetaling
 h1 {
-    font-size: 62px;
-    line-height: 64px;
+    font-size: 36px;
+    line-height: 40px;
 }
 
+// Subtitels: Nieuws & updates -- lening op afbetaling
 h2 {
     font-size: 56px;
     line-height: 56px;
@@ -61,81 +63,56 @@ a:hover {
     text-decoration: none;
 }
 
-// -------------MEDIA QUERIES MOBILE HEADINGS--------------
-// Extra small devices (portrait phones, less than 768px)
-// @media (max-width: 768px) {
-//     h1 {
-//         font-size: 32px;
-//         line-height: 35px;
-//     }
-
-//     h2 {
-//         font-size: 28px;
-//         line-height: 33px;
-//     }
-
-//     h3 {
-//         font-size: 24px;
-//         line-height: 29px;
-//     }
-
-//     h4 {
-//         font-size: 21px;
-//         line-height: 26px;
-//     }
-
-//     h5 {
-//         font-size: 20px;
-//         line-height: 25px;
-//     }
-
-//     h6 {
-//         font-size: 20px;
-//         line-height: 25px;
-//         font-family: mmc-medium;
-//     }
-
-// }
 
 
-// // -------------LABEL TYPE--------------
-// .label-small {
-//     font-size: 12px;
-//     line-height: 16px;
-//     font-family: mmc;
-//     text-transform: uppercase;
-//     letter-spacing: 2px;
-//     color: #5a646f;
-// }
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    h1 {
+        font-size: 62px;
+        line-height: 64px;
+    }
+    
+    h2 {
+        font-size: 56px;
+        line-height: 56px;
+    }
+    
+    h3 {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    h4 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    
+    h5 {
+        font-size: 21px;
+        line-height: 25px;
+    }
+    
+    h6 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+   
+}
 
 
-// .label-medium {
-//     font-size: 12px;
-//     line-height: 16px;
-//     font-family: mmc-medium;
-//     text-transform: uppercase;
-//     letter-spacing: 2px;
-//     color: #5a646f;
-// }
-
-// .label-big{
-//     font-size: 14px;
-//     line-height: 18px;
-//     font-family: mmc;
-//     text-transform: uppercase;
-//     letter-spacing: 2px;
-//     color: #5a646f;
-// }
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
 
 
-// .white-label{
-//     color: white;
-// }
+}
 
 
-// // -------------OPENING SECTION--------------
-// .opening {
-//     p {
-//         line-height: 36px;
-//     }
-// }
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    header {
+        margin-top: 150px;
+    }
+}

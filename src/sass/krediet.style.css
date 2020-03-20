@@ -199,8 +199,8 @@ h5 {
 }
 
 h1 {
-  font-size: 62px;
-  line-height: 64px;
+  font-size: 36px;
+  line-height: 40px;
 }
 
 h2 {
@@ -245,6 +245,39 @@ a {
 
 a:hover {
   text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 62px;
+    line-height: 64px;
+  }
+  h2 {
+    font-size: 56px;
+    line-height: 56px;
+  }
+  h3 {
+    font-size: 48px;
+    line-height: 48px;
+  }
+  h4 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  h5 {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  h6 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    margin-top: 150px;
+  }
 }
 
 .main-nav {
@@ -319,17 +352,23 @@ a:hover {
 }
 
 header {
-  margin-top: 150px;
+  margin-top: 55px;
 }
 
 .header__intro__title {
-  font-size: 50px;
   color: #222222;
-  line-height: 56px;
 }
 
 .header__intro__text {
-  margin: 45px 0;
+  margin: 20px 0;
+}
+
+.header__image {
+  margin: 30px 0;
+}
+
+.header__image img {
+  height: 200px;
 }
 
 .loan__item {
@@ -343,5 +382,32 @@ header {
 
 .loan__lening {
   background-color: #8B9C22;
+}
+
+@media (min-width: 576px) {
+  header {
+    margin-top: 120px;
+  }
+  .header__intro__text {
+    margin: 45px 0;
+  }
+  .header__image img {
+    height: 260px;
+  }
+  .header__text {
+    margin: 45px 0;
+  }
+}
+
+@media (min-width: 992px) {
+  header {
+    margin-top: 150px;
+  }
+  .header__image {
+    margin: 0;
+  }
+  .header__image img {
+    height: auto;
+  }
 }
 /*# sourceMappingURL=krediet.style.css.map */
