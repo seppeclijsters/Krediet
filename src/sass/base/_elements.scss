@@ -22,13 +22,15 @@ h2 {
 }
 
 h3 {
-    font-size: 48px;
+    font-size: 28px;
     line-height: 48px;
 }
 
 h4 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 17px;
+    line-height: 24px;
+    // font-size: 36px;
+    // line-height: 40px;
 }
 
 h5 {
@@ -39,6 +41,18 @@ h5 {
 h6 {
     font-size: 20px;
     line-height: 25px;
+}
+
+.hide-for-tablet {
+    display: none;
+}
+
+.hide-for-desktop {
+    display: block;
+}
+
+.nav-link {
+    padding: 0;
 }
 
 
@@ -84,8 +98,8 @@ a:hover {
     }
     
     h4 {
-        font-size: 36px;
-        line-height: 40px;
+        font-size: 18px;
+        line-height: 24px;
     }
     
     h5 {
@@ -96,6 +110,14 @@ a:hover {
     h6 {
         font-size: 20px;
         line-height: 25px;
+    }
+
+    .hide-for-tablet {
+        display: none;
+    }
+
+    .hide-for-desktop {
+        display: block;
     }
 
    
@@ -111,6 +133,13 @@ a:hover {
 
 // // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+    .hide-for-tablet {
+        display: block;
+    }
+    .hide-for-desktop {
+        display: none;
+    }
 
     header {
         margin-top: 150px;
