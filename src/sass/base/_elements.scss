@@ -43,6 +43,15 @@ h6 {
     line-height: 25px;
 }
 
+a { color: inherit;
+text-decoration: none; } 
+
+a:hover {
+    text-decoration: none; 
+    cursor: pointer;
+    color: black;
+}
+
 .hide-for-tablet {
     display: none;
 }

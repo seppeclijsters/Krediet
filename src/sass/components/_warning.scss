@@ -1,0 +1,24 @@
+.warning {
+    margin-top: 50px;
+    background-color: $primary-lightblue;
+    padding: 15px 0;
+
+    &__text {
+        font-size: 30px;
+        color: #FFFFFF;
+        line-height: 35px;
+    }
+}
+
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    .warning {
+        padding: 45px 0;
+    
+        &__text {
+            font-size: 38px;
+        }
+    }
+}

@@ -228,6 +228,17 @@ h6 {
   line-height: 25px;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
 .hide-for-tablet {
   display: none;
 }
@@ -306,7 +317,7 @@ a:hover {
 
 .main-nav {
   position: fixed;
-  z-index: 2;
+  z-index: 100;
   width: 100%;
   top: 0;
   height: 60px;
@@ -461,6 +472,7 @@ a:hover {
 }
 
 .btn {
+  position: relative;
   display: inline-block;
   height: 50px;
   padding: 18px 20px;
@@ -469,6 +481,7 @@ a:hover {
   min-width: 160px;
   border-radius: 24.5px;
   color: white;
+  font-size: 16px;
 }
 
 .btn-blue {
@@ -487,6 +500,81 @@ a:hover {
 .btn-green:hover {
   background-color: #5D6061;
   color: white;
+}
+
+.btn-yellow {
+  background-color: #EBBD00;
+}
+
+.btn-yellow svg {
+  position: absolute;
+  right: -31px;
+  top: -28px;
+}
+
+.btn-yellow:hover {
+  background-color: #EBBD00;
+  color: white;
+}
+
+.btn-yellow:hover .wifi-wave1 {
+  opacity: 1;
+  -webkit-animation: example 1s .2s ease-in-out infinite;
+          animation: example 1s .2s ease-in-out infinite;
+}
+
+.btn-yellow:hover .wifi-wave2 {
+  opacity: 1;
+  -webkit-animation: example2 1s .5s ease-in-out infinite;
+          animation: example2 1s .5s ease-in-out infinite;
+}
+
+@-webkit-keyframes example {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes example {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes example2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes example2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .blog__uppertitle {
@@ -543,6 +631,7 @@ a:hover {
 .blog__image {
   -o-object-fit: cover;
      object-fit: cover;
+  font-family: 'object-fit: cover;';
   width: 100%;
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
@@ -552,7 +641,6 @@ a:hover {
 .blog__image-overlay {
   position: absolute;
   z-index: 2;
-  top: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(139, 156, 34, 0);
@@ -561,39 +649,11 @@ a:hover {
 }
 
 .blog__image-overlay img {
+  width: 24px;
+  height: 24px;
   opacity: 0;
   -webkit-transition: opacity .3s ease-in-out;
   transition: opacity .3s ease-in-out;
-}
-
-.blog__image:hover {
-  cursor: pointer;
-  -webkit-transform: scale(1.01, 1.01);
-          transform: scale(1.01, 1.01);
-  -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
-}
-
-.blog__image::after {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  border-radius: 7px;
-  -webkit-transition: opacity 0.3s ease-in-out;
-  transition: opacity 0.3s ease-in-out;
-  -webkit-box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
-}
-
-.blog__image::after:hover {
-  opacity: 1;
-}
-
-.blog__image:hover::after {
-  opacity: 1;
 }
 
 .blog .blog__woonkrediet .blog__category {
@@ -607,6 +667,7 @@ a:hover {
 .blog__article:hover .blog__image {
   -o-object-fit: cover;
      object-fit: cover;
+  font-family: 'object-fit: cover;';
   width: 100%;
   height: 100%;
   -webkit-transition: all 0.3s ease-in-out;
@@ -643,6 +704,92 @@ a:hover {
   .blog__uppertitle {
     margin: 70px 0;
   }
+  .header__intro__title {
+    font-size: 46px;
+    line-height: 47px;
+  }
+}
+
+.warning {
+  margin-top: 50px;
+  background-color: #67C6DD;
+  padding: 15px 0;
+}
+
+.warning__text {
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 35px;
+}
+
+@media (min-width: 576px) {
+  .warning {
+    padding: 45px 0;
+  }
+  .warning__text {
+    font-size: 38px;
+  }
+}
+
+.footer {
+  background-color: #D8E1E8;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer__container {
+  padding: 40px 0;
+}
+
+.footer__logo {
+  width: 100%;
+  max-width: 160px;
+  margin-bottom: 30px;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  text-decoration: underline;
+}
+
+.footer__bottom {
+  padding: 25px 0;
+  background-color: #EBF0F3;
+}
+
+.footer__bottom__copyright {
+  font-size: 12px;
+  color: #000303;
+  line-height: 16px;
+}
+
+.footer__bottom__webagency {
+  font-size: 12px;
+  color: #000303;
+  line-height: 16px;
+}
+
+@media (min-width: 576px) {
+  .footer ul li {
+    margin-bottom: inherit;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer__logo {
+    margin-bottom: 0px;
+  }
+}
+
+.seo {
+  margin: 70px 0;
+}
+
+.seo p {
+  margin-bottom: 30px;
 }
 
 body {
@@ -703,6 +850,8 @@ header {
 .loan__item::after {
   content: '';
   position: absolute;
+  top: 0;
+  left: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
@@ -825,5 +974,13 @@ header {
     height: 320px;
     margin-bottom: 0;
   }
+}
+
+.simulator {
+  background-color: #D8E1E8;
+}
+
+.simulator__title {
+  padding: 60px 0;
 }
 /*# sourceMappingURL=krediet.style.css.map */
