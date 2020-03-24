@@ -1,0 +1,77 @@
+.blog{
+    & .filter__title{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    & .woonkrediet-titel{
+        color:#0A51A1;
+    }
+    & .filter{
+        font-weight: bold;
+        &__title{
+            margin-top: 55px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+        }
+        &__layout{
+            margin: 10px 0;
+            display: flex;
+            flex-direction: column;
+        }
+        &__category{
+            font-size: 15px;
+            min-width: 200px;;
+        }
+        &__category-woonkrediet{
+            color: $primary-darkblue;
+        }
+        &__category-lening{
+            color: $sec-green;
+        }
+
+    }
+
+    & .tag{
+        padding-right: 12px;
+        text-decoration: underline;
+    }
+    & .tag-woonkrediet{
+        color:rgba(10, 81, 161, 0.3);
+    }
+    & .tag-woonkrediet:hover{
+        color: $primary-darkblue;
+    }
+    & .tag-lening{
+        color:rgba(139, 156, 34, 0.55);
+    }
+    & .tag-lening:hover{
+        color: $sec-green;
+    }
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .blog{
+        & .filter{
+            &__layout{
+                margin: 10px 0;
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
