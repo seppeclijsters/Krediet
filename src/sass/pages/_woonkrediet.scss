@@ -2,7 +2,6 @@
     margin: 50px 0 60px 0;
     &__layout{
         margin-top: 20px;
-        // width: 160px;
         min-height: 160px;
         border-radius: 7px;
         padding: 0 20px;
@@ -23,7 +22,10 @@
 }
 .lening-op-afbetaling{
     & .kredieten__layout{
-        background-color: #C3D4E7;
+        background-color: #D9E298;
+        &:hover{
+            background-color: #8B9C22;
+        }
     }
 }
 
@@ -41,6 +43,9 @@
         margin: 0;
         padding: 70px 0;
     }
+}
+.auto{
+    margin-top: 47px;
 }
 @media (min-width: 576px) {
 

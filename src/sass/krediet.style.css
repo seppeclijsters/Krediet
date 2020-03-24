@@ -1127,7 +1127,11 @@ header {
 }
 
 .lening-op-afbetaling .kredieten__layout {
-  background-color: #C3D4E7;
+  background-color: #D9E298;
+}
+
+.lening-op-afbetaling .kredieten__layout:hover {
+  background-color: #8B9C22;
 }
 
 .kredieten__layout:hover {
@@ -1142,6 +1146,10 @@ header {
   background-color: #F3F6F8;
   margin: 0;
   padding: 70px 0;
+}
+
+.auto {
+  margin-top: 47px;
 }
 
 .offices {
