@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/sass/krediet.style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="main-nav d-flex justify-content-between">
+        <div class="d-flex">
+            <a href="#" class="main-nav__logo">
+                <img src="/assets/images/logo.svg" alt="logo">
+            </a>
+
+            <!-- <li class="main-nav__list__item main-nav__list__item-home flex-fill ">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li> -->
+        </div>
+        <ul class="main-nav__list d-flex flex-fill ">
+            <li class="main-nav__list__item main-nav__list__item-home flex-fill ">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#news" class="nav-link">nieuws</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#models" class="nav-link">onze modellen</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#contact-us" class="nav-link">contact</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="main-nav__list__item  hide-for-desktop">
+                <a href="#" class="nav-link mobile-nav__item__link hamburger" id="hamburger-1">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                </a>
+            </li>
+            
+            <li class="main-nav__list__item hide-for-desktop">
+                <a href="#" class="nav-link  mobile-nav__item__link">FR</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="mobile-nav hide-for-desktop">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__list__item">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#news" class="nav-link">nieuws</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#models" class="nav-link">onze modellen</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#contact-us" class="nav-link">contact</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="intro" style="margin-top:300px">
+        <div class="container">
+            <div class="row flex-column align-items-center">
+                <div class="col-12 col-sm-12 col-lg-9">
+                    <h1 class ="text-center">onze kantoren, altijd dicht bij u</h1>
+                    <p class="intro__text">Ut ultricies sapien vel placerat fringilla. Maecenas lacinia dolor at semper finibus. 
+                    Curabitur ultricies lorem consectetur aliquam tincidunt.
+                    Mauris dapibus ut ante a congue.</p>
+
+                </div>
+                <div class="col-12 col-sm-11 col-lg-7">
+                    <p>Nam volutpat malesuada nisi ullamcorper pulvinar. Nam rhoncus ultrices risus, sed sagittis purus egestas ac. Ut massa sem, sagittis sit amet auctor non, efficitur ut orci. Donec efficitur tincidunt tellus sed maximus.
+                        Nam justo quam, ultricies quis augue sit amet, varius porttitor elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="offices">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="office">
+                        <a class="office__link" href=""></a>
+                        <div class="d-flex align-items-end">
+                            <svg class="office__image" width="23px" height="34px" viewBox="0 0 23 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <title>pin</title>
+                                <desc>Created with Sketch.</desc>
+                                <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+                                    <g class="office__image__fill" id="07A-Kantoren" transform="translate(-151.000000, -915.000000)" stroke="#0A51A1" stroke-width="2">
+                                        <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                            <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                <g id="pin" transform="translate(16.000000, 16.000000)">
+                                                    <path d="M10.6666667,0.946666667 C16.1895142,0.946666667 20.6666667,5.42381917 20.6666667,10.9466667 C20.6666667,15.676 13.3333333,27.4546667 11.228,30.7466667 C11.1054293,30.9379712 10.8938692,31.0536816 10.6666667,31.0536816 C10.4394641,31.0536816 10.227904,30.9379712 10.1053333,30.7466667 C8,27.456 0.666666667,15.676 0.666666667,10.9466667 C0.666666667,5.42381917 5.14381917,0.946666667 10.6666667,0.946666667 Z" id="Path"></path>
+                                                    <circle id="Oval" cx="10.6666667" cy="10.9466667" r="4"></circle>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                            <h4 class="office__name">Kantoornaam</h4>
+                        </div>
+                        <p class="office__address">
+                            Ditiseenstraat 336
+                            <br>
+                            2100 Plaatsnaam
+                        </p>
+                        <div class="d-flex align-items-center"> 
+                            <a class="office__phone" href="tel:2476248">
+                                <svg class="office__image" width="19px" height="16px" viewBox="0 0 19 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>phone-incoming-call</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -788.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM">
+                                                    <g id="phone-incoming-call" transform="translate(16.000000, 124.000000)">
+                                                        <path d="M16.7041667,9.4216 L16.7041667,9.4216 C11.9506226,8.438823 7.04937744,8.438823 2.29583333,9.4216 C0.988428891,9.71164747 0.0427845264,10.8616609 0,12.2136 L0,13.4136 C1.3386168e-16,14.5181695 0.886103099,15.4136 1.97916667,15.4136 L4.35416667,15.4136 C5.44723023,15.4136 6.33333333,14.5181695 6.33333333,13.4136 L6.33333333,12.9776 C8.44031071,12.788799 10.5596893,12.788799 12.6666667,12.9776 L12.6666667,13.4136 C12.6666667,14.5181695 13.5527698,15.4136 14.6458333,15.4136 L17.0208333,15.4136 C18.1138969,15.4136 19,14.5181695 19,13.4136 L19,12.2136 C18.9572155,10.8616609 18.0115711,9.71164747 16.7041667,9.4216 Z" id="Path"></path>
+                                                        <path d="M9.10416667,6.4136 C9.65069845,6.4136 10.09375,5.96588475 10.09375,5.4136 L10.09375,1.5864 C10.09375,1.03411525 9.65069845,0.5864 9.10416667,0.5864 C8.55763488,0.5864 8.11458333,1.03411525 8.11458333,1.5864 L8.11458333,5.4136 C8.11458333,5.96588475 8.55763488,6.4136 9.10416667,6.4136 L9.10416667,6.4136 Z" id="Path"></path>
+                                                        <path d="M12.7925417,7.68 C13.056656,7.6805004 13.3099193,7.57386324 13.4955417,7.384 L16.1405,4.6888 C16.525477,4.29645691 16.5228187,3.66302939 16.1345625,3.27400001 C15.7463063,2.88497064 15.119477,2.88765693 14.7345,3.28 L12.0895417,5.9776 C11.8082967,6.26430834 11.7252324,6.69378412 11.8789583,7.06640001 C12.0326842,7.43901591 12.393046,7.68168076 12.7925417,7.6816 L12.7925417,7.68 Z" id="Path"></path>
+                                                        <path d="M4.71279167,7.3856 C5.09755004,7.77794309 5.72420215,7.78080846 6.11245833,7.392 C6.50071451,7.00319154 6.50355004,6.36994309 6.11879167,5.9776 L3.47383333,3.28 C3.08907496,2.88765693 2.46242285,2.88479156 2.07416668,3.27360001 C1.68591051,3.66240847 1.68307497,4.29565691 2.06783333,4.688 L4.71279167,7.3856 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                03/366 03 63
+                            </a>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <a class="office__mail" href="mailto:seppe@gmail.com">
+                                <svg class="office__image" width="19px" height="12px" viewBox="0 0 19 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <title>envelope</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g class="office__image__fill" id="07A-Kantoren" transform="translate(-152.000000, -1060.000000)" fill="#0A51A1" fill-rule="nonzero">
+                                            <g id="KANTOOR-GRID" transform="translate(136.000000, 664.000000)">
+                                                <g id="KANTOOR-ITEM-Copy-4" transform="translate(0.000000, 236.000000)">
+                                                    <g id="envelope" transform="translate(16.000000, 160.000000)">
+                                                        <path d="M8.79388995,8.02973502 C9.1837569,8.40034474 9.81464737,8.40034474 10.2045143,8.02973502 L17.9326295,0.661792375 C18.0396409,0.560139853 18.0772497,0.409580122 18.029784,0.272853164 C17.9823183,0.136126206 17.8579208,0.0366879201 17.7084296,0.0159753906 C17.6326123,0.00532476514 17.5560783,-1.42906077e-05 17.4794425,1.11892691e-06 L1.52215326,1.11892691e-06 C1.44498481,-8.88796185e-05 1.3679146,0.00525037558 1.29157043,0.0159753906 C1.14207916,0.0366879201 1.01768173,0.136126206 0.970216006,0.272853164 C0.92275028,0.409580122 0.960359132,0.560139853 1.06737052,0.661792375 L8.79388995,8.02973502 Z" id="Path"></path>
+                                                        <path d="M18.9113324,0.934388621 C18.8571995,0.911710866 18.7945295,0.923767305 18.752999,0.964848732 L13.844666,5.80722525 C13.7675748,5.88369567 13.7675748,6.00723892 13.844666,6.08370933 L17.8370407,10.0224359 C17.9914586,10.1694367 18.0534635,10.3871989 17.9992238,10.5920261 C17.9449842,10.7968533 17.782941,10.9568698 17.5753752,11.0105737 C17.3678093,11.0642776 17.1470227,11.0033113 16.9978741,10.8511071 L13.0054993,6.91238054 C12.9683685,6.87565592 12.9179518,6.85501643 12.8653743,6.85501643 C12.8127969,6.85501643 12.7623802,6.87565592 12.7252493,6.91238054 L11.0397911,8.57519015 C10.1896858,9.4134033 8.81189659,9.4134033 7.96179126,8.57519015 L6.27474968,6.9139426 C6.19723768,6.83788739 6.07201169,6.83788739 5.99449969,6.9139426 L2.0021249,10.8526692 C1.76904426,11.0745543 1.3987184,11.0712084 1.16979593,10.8451491 C0.940873462,10.6190898 0.937831202,10.2537372 1.16295827,10.023998 L5.15533307,6.08527139 C5.2324242,6.00880097 5.2324242,5.88525772 5.15533307,5.80878731 L0.246999987,0.966410789 C0.205688376,0.924926083 0.142750275,0.912818073 0.0886666621,0.935950678 C0.035502453,0.957800719 0.000634345428,1.00878578 0,1.0656014 L0,10.4379431 C1.23085801e-16,11.3006433 0.708882443,12 1.58333325,12 L17.4166658,12 C18.2911166,12 18.999999,11.3006433 18.999999,10.4379431 L18.999999,1.0656014 C19.0002138,1.00815253 18.965167,0.956288778 18.9113324,0.934388621 Z" id="Path"></path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                antwerpen@credishop.be
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="seo">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-lg-8">
+                    <p>
+                        Nam volutpat malesuada nisi ullamcorper pulvinar. Nam rhoncus ultrices risus, sed sagittis purus egestas ac. Ut massa sem, sagittis sit amet auctor non, efficitur ut orci. Donec efficitur tincidunt tellus sed maximus. Nam justo quam, ultricies quis augue sit amet, varius porttitor elit. In hac habitasse platea dictumst. Mauris nec mollis est, et tincidunt massa. Curabitur sodales sem quis dolor vulputate semper. Maecenas aliquet tempus elit, eget finibus massa elementum ac. Pellentesque elementum hendrerit interdum. In vitae dolor rhoncus, dignissim lorem vitae, tincidunt felis.
+                    </p>
+                    <p>
+                        Ut ultricies sapien vel placerat fringilla. Maecenas lacinia dolor at semper finibus. Curabitur ultricies lorem consectetur aliquam tincidunt. Mauris dapibus ut ante a congue. Integer ut tincidunt leo. Cras massa mauris, cursus et dignissim luctus, condimentum sed mi. Phasellus ac massa sapien. Morbi lobortis elementum lacinia. Mauris a nisi quis mauris vehicula ultricies ullamcorper eu odio. Praesent quis erat eu massa pharetra blandit in eget nulla.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__container">
+                <div class="col-12 col-sm-12 col-lg-3">
+                    <img class="footer__logo" src="/assets/images/logo-blue.svg" alt="logo">
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Simulaties</a>
+                        </li>
+                        <li>
+                            <a href="">Woonkrediet</a>
+                        </li>
+                        <li>
+                            <a href="">Tarieven Woonkrediet</a>
+                        </li>
+                        <li>
+                            <a href="">Woonkrediet</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Gezinsuitgaven</a>
+                        </li>
+                        <li>
+                            <a href="">Huwelijk</a>
+                        </li>
+                        <li>
+                            <a href="">Vakantie</a>
+                        </li>
+                        <li>
+                            <a href="">Studie</a>
+                        </li>
+                        <li>
+                            <a href="">Auto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Onze kantoren</a>
+                        </li>
+                        <li>
+                            <a href="">Juridische informatie</a>
+                        </li>
+                        <li>
+                            <a href="">Privacybeleid</a>
+                        </li>
+                        <li>
+                            <a href="">Disclaimer</a>
+                        </li>
+                        <li>
+                            <a href="">Lexicon</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+           <div class="container">
+               <div class="row justify-content-between ">
+                   <p class="col-auto footer__bottom__copyright">
+                        ©2020. Credishop. Alle rechten voorbehouden.
+                   </p>
+                   <p class="col-auto footer__bottom__webagency">
+                        Made with love by Dickytall.
+                   </p>
+               </div>
+           </div>
+        </div>
+    </footer>
+    <section class="warning">
+        <p class="warning__text text-center">Let op, geld lenen kost ook geld</p>
+    </section>
+
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/ofi.min.js"></script>
+    <script src="assets/js/resize-images.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    
+</body>
+</html>
+
