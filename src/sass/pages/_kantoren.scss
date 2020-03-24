@@ -1,0 +1,111 @@
+.offices {
+    margin: 40px 0;
+}
+
+.office {
+    position: relative;
+    margin-bottom: 30px !important;
+    background-color: $primary-grey;
+    border-radius: 7px;
+    padding: 15px;
+    transition: background-color .2s ease-in-out;
+
+    &__link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    & > * {
+        // transition: all .3s ease-in-out;
+        margin-bottom: 15px;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    &__name {
+        font-size: 18px;
+        color: #0A51A1;
+        line-height: 24px;
+        font-weight: bold;
+        transition: all .2s;
+    }
+
+    &__image {
+        margin-right: 10px;
+    }
+
+    &__phone {
+        position: relative;
+        z-index: 2;
+        transition: all .2s;
+        border-bottom: 1px solid transparent;
+    }
+
+    &__mail {
+        position: relative;
+        z-index: 2;
+        transition: all .2s;
+        border-bottom: 1px solid transparent;
+        word-break: break-all;
+    }
+
+    &__address {
+        transition: all .2s;
+    }
+}
+
+.office:hover {
+    background-color: $primary-darkblue;
+    color: white;
+
+    & .office__image__fill {
+        fill: $primary-lightblue;
+    }
+
+    & .office__name {
+        color: white;
+    }
+
+}
+
+.office__phone:hover {
+    color: inherit;
+    border-bottom: 1px solid white;
+}
+
+.office__mail:hover {
+    color: inherit;
+    border-bottom: 1px solid white;
+}
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    .offices {
+        margin: 50px 0;
+    }
+}
+
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    .offices {
+        margin: 70px 0;
+    }
+
+}
