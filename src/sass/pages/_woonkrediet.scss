@@ -1,0 +1,58 @@
+.kredieten{
+    margin: 50px 0 60px 0;
+    &__layout{
+        margin-top: 20px;
+        // width: 160px;
+        min-height: 160px;
+        border-radius: 7px;
+        padding: 0 20px;
+    }
+    &__svg{
+        margin-top:40px;
+        margin-bottom: 10px;
+    }
+}
+
+.woonkredieten{
+    & .kredieten__layout{
+        background-color: #C3D4E7;
+        &:hover{
+            background-color: $primary-darkblue;
+        }
+    }
+}
+.lening-op-afbetaling{
+    & .kredieten__layout{
+        background-color: #C3D4E7;
+    }
+}
+
+.kredieten__layout:hover{
+    color: white;
+    & .kredieten__svg{
+        & path, rect{
+            stroke: white;
+        }
+    }
+}
+.kred{
+    & .seo{
+        background-color: #F3F6F8;
+        margin: 0;
+        padding: 70px 0;
+    }
+}
+@media (min-width: 576px) {
+
+}
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}

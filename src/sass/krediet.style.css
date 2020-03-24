@@ -973,6 +973,22 @@ input[type="radio"]:checked + .label:after {
   }
 }
 
+.intro {
+  padding: 100px 0 60px 0;
+  background-color: #EBF0F3;
+}
+
+.intro__text {
+  margin: 30px 0;
+  font-family: "roboto";
+}
+
+@media (min-width: 992px) {
+  .intro {
+    padding: 170px 0 100px 0;
+  }
+}
+
 body {
   height: 4000px;
 }
@@ -1190,6 +1206,48 @@ header {
   font-size: 17px;
   color: #000303;
   line-height: 24px;
+}
+
+.kredieten {
+  margin: 50px 0 60px 0;
+}
+
+.kredieten__layout {
+  margin-top: 20px;
+  min-height: 160px;
+  border-radius: 7px;
+  padding: 0 20px;
+}
+
+.kredieten__svg {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.woonkredieten .kredieten__layout {
+  background-color: #C3D4E7;
+}
+
+.woonkredieten .kredieten__layout:hover {
+  background-color: #0A51A1;
+}
+
+.lening-op-afbetaling .kredieten__layout {
+  background-color: #C3D4E7;
+}
+
+.kredieten__layout:hover {
+  color: white;
+}
+
+.kredieten__layout:hover .kredieten__svg path, .kredieten__layout:hover .kredieten__svg rect {
+  stroke: white;
+}
+
+.kred .seo {
+  background-color: #F3F6F8;
+  margin: 0;
+  padding: 70px 0;
 }
 
 .offices {
