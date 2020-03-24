@@ -5,3 +5,31 @@
         padding: 60px 0;
     }
 }
+
+.values {
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+    &__title {
+        margin-bottom: 50px;
+    }
+}
+
+.value {
+    margin-bottom: 30px;
+
+    &__image {
+        height: 32px;
+    }
+
+    &__title {
+        padding-top: 12px;
+        padding-bottom: 20px;
+        font-family: 'roboto';
+        font-weight: 500;
+        font-size: 17px;
+        color: #000303;
+        line-height: 24px;
+    }
+
+}

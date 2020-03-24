@@ -9,6 +9,7 @@
     border-radius: 24.5px;
     color: white;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .btn-blue {
@@ -26,6 +27,16 @@
     &:hover {
         background-color: $sec-darkgrey;
         color: white;
+    }
+}
+
+.btn-white {
+    background-color: white;
+    color: $primary-darkblue;
+
+    &:hover {
+        // background-color: $sec-darkgrey;
+        // color: white;
     }
 }
 
