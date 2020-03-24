@@ -31,15 +31,12 @@
 // -----------------------------------------------------------------------------
 @import "components/navigation"; 
 @import "components/buttons"; 
-<<<<<<< HEAD
-@import "components/header"; 
-=======
 @import "components/blog"; 
 @import "components/warning"; 
 @import "components/footer"; 
 @import "components/seo";
 @import "components/contact"; 
->>>>>>> a8c3a39fb2962a943c46bda2f21cec9d151600c0
+@import "components/header"; 
 // @import "components/carrousel";
 
 
@@ -47,8 +44,5 @@
 // ----------------------------------------------------------------------------
 
 @import "pages/front";
-<<<<<<< HEAD
-@import "pages/woonkrediet";
-=======
 @import "pages/simulator";
->>>>>>> a8c3a39fb2962a943c46bda2f21cec9d151600c0
+@import "pages/woonkrediet";
