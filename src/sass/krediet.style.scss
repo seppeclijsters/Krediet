@@ -31,10 +31,12 @@
 // -----------------------------------------------------------------------------
  @import "components/navigation"; 
 @import "components/buttons"; 
+@import "components/header"; 
 // @import "components/carrousel";
 
 
 // Pages
 // ----------------------------------------------------------------------------
 
-@import "pages/front"
+@import "pages/front";
+@import "pages/woonkrediet";

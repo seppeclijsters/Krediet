@@ -1,0 +1,38 @@
+.kredieten{
+    &__layout{
+        background-color: #C3D4E7;
+        margin-top: 20px;
+        // width: 160px;
+        //  min-height: 160px;
+         border-radius: 7px;
+         padding: 10px;
+    }
+    &__svg{
+        margin-bottom: 12px;
+    }
+}
+@media (min-width: 576px) {
+
+    .kredieten{
+        &__layout{
+            //  height: 184px;
+        }
+    }
+
+}
+
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+    header {
+        margin-top: 150px;
+    }
+}

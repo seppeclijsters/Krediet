@@ -351,6 +351,15 @@ a:hover {
   color: white;
 }
 
+.intro {
+  background-color: #EBF0F3;
+}
+
+.intro__text {
+  margin: 30px 0;
+  font-family: "roboto";
+}
+
 header {
   margin-top: 55px;
 }
@@ -408,6 +417,23 @@ header {
   }
   .header__image img {
     height: auto;
+  }
+}
+
+.kredieten__layout {
+  background-color: #C3D4E7;
+  margin-top: 20px;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+.kredieten__svg {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 992px) {
+  header {
+    margin-top: 150px;
   }
 }
 /*# sourceMappingURL=krediet.style.css.map */
