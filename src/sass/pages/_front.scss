@@ -1,4 +1,6 @@
-
+body {
+    height: 4000px;
+}
 
 header {
     margin-top: 55px;
@@ -27,21 +29,130 @@ header {
     }
 }
 
-.loan__item {
-    height: 320px;
-    border-radius: 7px;
+.loan {
+    position: relative;
+    margin-top: 50px;
+
+    &__bg {
+        position: absolute;
+        bottom: 0;
+        height: 75%;
+        width: 100%;
+        background: $primary-grey;
+    }
+
+    &__item {
+        height: 250px;
+        margin-bottom: 15px;
+        border-radius: 7px;
+
+        position: relative;
+        display: inline-block;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+        transition: all 0.3s ease-in-out;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.01, 1.01);
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            border-radius: 7px;
+            transition: opacity 0.3s ease-in-out;
+            box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.20);
+
+            &:hover {
+                opacity: 1;
+            }
+          }
+
+          &:hover::after {
+            opacity: 1;
+          }
+
+    }
+
+    &__item__title {
+        font-family: 'roboto';
+        margin-top: 40px;
+        transition: color .3s ease-in-out;
+        font-size: 24px;
+        text-align: center;
+        line-height: 32px;
+    }
+
+    & .svg-stroke {
+        transition: all 0.3s ease-in-out;
+    }
+
+    & .svg-fill {
+        transition: all 0.3s ease-in-out;
+    }
+
+
 }
+
 
 .loan__woonkrediet {
     background-color: #C3D4E7;
+    // background-color: #C3D4E7;
+
+    &:hover {
+        // background-color: blue;
+
+        & .svg-stroke {
+            stroke: white;
+        }
+
+        & .svg-fill {
+            fill: white;
+        }
+
+        & .loan__item__title {
+            color: white;
+        }
+    }
 }
 
 .loan__lening {
     background-color: $sec-green;
+
+    &:hover {
+
+        & .svg-stroke {
+            stroke: white;
+        }
+
+        & .svg-fill {
+            fill: white;
+        }
+
+        & .loan__item__title {
+            color: white;
+        }
+    }
+}
+
+.contact-us {
+    background-color: $primary-grey;
+    padding: 50px 0;
+
+    &__title {
+        padding-bottom: 30px;
+    }
 }
 
 // // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
+    
 
     header {
         margin-top: 120px;
@@ -65,6 +176,19 @@ header {
 
         &__text {
             margin: 45px 0;
+        }
+    }
+
+    .loan {
+        margin-top: 50px;
+
+        &__bg {
+            height: 50%;
+        }
+    
+        &__item {
+            height: 320px;
+            margin-bottom: 0;
         }
     }
 
@@ -94,6 +218,15 @@ header {
             & img {
                 height: auto;
             }
+        }
+    }
+
+    .loan {
+        margin-top: 90px;
+    
+        &__item {
+            height: 320px;
+            margin-bottom: 0;
         }
     }
 }
