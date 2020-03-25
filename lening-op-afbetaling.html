@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/sass/krediet.style.css">
+    <title>Document</title>
+</head>
+<body class="kred">
+
+    <nav class="main-nav d-flex justify-content-between">
+        <div class="d-flex">
+            <a href="#" class="main-nav__logo">
+                <img src="/assets/images/logo.svg" alt="logo">
+            </a>
+
+            <!-- <li class="main-nav__list__item main-nav__list__item-home flex-fill ">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li> -->
+        </div>
+        <ul class="main-nav__list d-flex flex-fill ">
+            <li class="main-nav__list__item main-nav__list__item-home flex-fill ">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#news" class="nav-link">nieuws</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#models" class="nav-link">onze modellen</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#contact-us" class="nav-link">contact</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="main-nav__list__item  hide-for-desktop">
+                <a href="#" class="nav-link mobile-nav__item__link hamburger" id="hamburger-1">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                </a>
+            </li>
+            
+            <li class="main-nav__list__item hide-for-desktop">
+                <a href="#" class="nav-link  mobile-nav__item__link">FR</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="mobile-nav hide-for-desktop">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__list__item">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#news" class="nav-link">nieuws</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#models" class="nav-link">onze modellen</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#contact-us" class="nav-link">contact</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+        </ul>
+    </div>
+
+    <section class="intro">
+        <div class="container">
+            <div class="row flex-column align-items-center">
+                <div class="col-12 col-sm-12 col-lg-9">
+                    <h1 class ="text-center">lening op afbetaling</h1>
+                    <p class="intro__text">Ut ultricies sapien vel placerat fringilla. Maecenas lacinia dolor at semper finibus. 
+                    Curabitur ultricies lorem consectetur aliquam tincidunt.
+                    Mauris dapibus ut ante a congue.</p>
+        
+                </div>
+                <div class="col-12 col-sm-11 col-lg-7">
+                    <p>Nam volutpat malesuada nisi ullamcorper pulvinar. Nam rhoncus ultrices risus, sed sagittis purus egestas ac. Ut massa sem, sagittis sit amet auctor non, efficitur ut orci. Donec efficitur tincidunt tellus sed maximus.
+                        Nam justo quam, ultricies quis augue sit amet, varius porttitor elit.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-lg-9">
+                    <div class="kredieten lening-op-afbetaling row flex-wrap">
+                        <!-- gezinsuitgaven -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <a href="">
+                            <div class="kredieten__layout d-flex flex-column align-items-center">
+                                <svg class="kredieten__svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M42.7085 26.0438C45.2973 26.0438 47.396 23.9451 47.396 21.3563C47.396 18.7674 45.2973 16.6688 42.7085 16.6688C40.1197 16.6688 38.021 18.7674 38.021 21.3563C38.021 23.9451 40.1197 26.0438 42.7085 26.0438Z" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M42.7085 28.125C39.2567 28.125 36.4585 30.9232 36.4585 34.375V39.5833H39.5835L40.6252 48.9583H44.7918L45.8335 39.5833H48.9585V34.375C48.9585 30.9232 46.1603 28.125 42.7085 28.125Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.2915 26.0438C9.88034 26.0438 11.979 23.9451 11.979 21.3563C11.979 18.7674 9.88034 16.6688 7.2915 16.6688C4.70267 16.6688 2.604 18.7674 2.604 21.3563C2.604 23.9451 4.70267 26.0438 7.2915 26.0438Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.2915 28.125C3.83972 28.125 1.0415 30.9232 1.0415 34.375V39.5833H4.1665L5.20817 48.9583H9.37484L10.4165 39.5833H13.5415V34.375C13.5415 30.9232 10.7433 28.125 7.2915 28.125Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0002 22.9166C28.1643 22.9166 30.7293 20.3516 30.7293 17.1875C30.7293 14.0233 28.1643 11.4583 25.0002 11.4583C21.836 11.4583 19.271 14.0233 19.271 17.1875C19.271 20.3516 21.836 22.9166 25.0002 22.9166Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M32.2918 32.2917C32.2918 28.2646 29.0272 25 25.0002 25C20.9731 25 17.7085 28.2646 17.7085 32.2917V38.5417H21.0064L21.8752 48.9583H28.1252L28.9939 38.5417H32.2918V32.2917Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1.0415 13.5417L24.0353 1.2771C24.6396 0.961426 25.3601 0.961426 25.9644 1.2771L48.9582 13.5417" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                  
+                                <p class="text-center">gezinsuitgaven</p>         
+                            </div>
+                        </a>
+                        </div>
+                        <!-- huwelijk -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <a href="">
+                            <div class="kredieten__layout d-flex flex-column align-items-center">
+                                <svg class="kredieten__svg" width="34" height="50" viewBox="0 0 34 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.6667 5.44792C14.375 -1.60624 6.25 0.514591 6.25 6.84584C6.25 12.0542 15.1625 18.9063 16.6667 20.025C18.1708 18.9063 27.0833 12.0542 27.0833 6.84584C27.0833 0.514591 18.9583 -1.60624 16.6667 5.44792Z" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.28505 19.5584C2.95463 22.952 -0.246702 30.2244 1.52571 37.185C3.29812 44.1456 9.58765 49.0012 16.7702 48.954C23.9528 48.9068 30.1779 43.9689 31.8587 36.9856C33.5395 30.0024 30.2429 22.7727 23.8684 19.4625" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.4518 23.0813C8.37504 24.6754 5.23111 29.7468 6.06117 35.0029C6.89123 40.2589 11.445 44.1146 16.7659 44.0667C22.0869 44.0188 26.5705 40.0818 27.3058 34.8117C28.0412 29.5415 24.8065 24.5276 19.7018 23.025" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg> 
+                                <p class="text-center">huwelijk</p>         
+                            </div>
+                            </a>
+                        </div>
+                        <!-- auto -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <a href="">
+                            <div class="kredieten__layout d-flex flex-column align-items-center">
+                                <svg class="kredieten__svg auto" width="57" height="43" viewBox="0 0 57 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6875 15.4375H46.3125C51.5592 15.4375 55.8125 19.6908 55.8125 24.9375V32.0625C55.8125 33.3742 54.7492 34.4375 53.4375 34.4375H3.5625C2.25082 34.4375 1.1875 33.3742 1.1875 32.0625V24.9375C1.1875 19.6908 5.44079 15.4375 10.6875 15.4375Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.5 15.4375L11.2124 5.15852C11.5942 2.86186 13.5843 1.18045 15.9125 1.18752H41.1041C43.4252 1.1884 45.4058 2.86664 45.7876 5.15615L47.5 15.4375" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M2.47 20.1875H14.25C14.9031 20.1875 15.0076 20.5034 14.4875 20.9L6.90175 26.4456C5.16892 27.6654 2.83768 27.5899 1.1875 26.2604" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M54.5416 20.1875H42.7497C42.0966 20.1875 41.9921 20.5034 42.5122 20.9L50.0979 26.4551C51.8308 27.6749 54.162 27.5994 55.8122 26.2699" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.0371 21.2848C22.9007 21.0455 22.9092 20.7501 23.0592 20.5192C23.2092 20.2882 23.4755 20.1602 23.7496 20.1875H34.4371C34.7069 20.1431 34.9768 20.266 35.1205 20.4987C35.2642 20.7314 35.2531 21.0278 35.0926 21.2491L28.4996 34.4375L23.0371 21.2848Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M10.6875 34.4375V32.0625C10.6875 29.4391 12.8141 27.3125 15.4375 27.3125H25.5289" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M32.0625 27.3125H41.5625C44.1859 27.3125 46.3125 29.4391 46.3125 32.0625V34.4375" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M47.5 15.4375L51.0625 10.6875H54.625C55.2808 10.6875 55.8125 11.2192 55.8125 11.875V14.25C55.8125 14.9058 55.2808 15.4375 54.625 15.4375H47.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.5 15.4375L5.9375 10.6875H2.375C1.71916 10.6875 1.1875 11.2192 1.1875 11.875V14.25C1.1875 14.9058 1.71916 15.4375 2.375 15.4375H9.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.0625 34.4375V39.1875C13.0625 40.4992 11.9992 41.5625 10.6875 41.5625H5.9375C4.62582 41.5625 3.5625 40.4992 3.5625 39.1875V34.4375" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M53.4375 34.4375V39.1875C53.4375 40.4992 52.3742 41.5625 51.0625 41.5625H46.3125C45.0008 41.5625 43.9375 40.4992 43.9375 39.1875V34.4375" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                <p class="text-center">auto</p>         
+                            </div>
+                            </a>
+                        </div>
+                        <!-- vakantie -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <a href="">
+                            <div class="kredieten__layout d-flex flex-column align-items-center">
+                                <svg class="kredieten__svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M48.9582 21.875V15.625C48.9479 12.1775 46.1557 9.3853 42.7082 9.375H7.2915C3.844 9.3853 1.0518 12.1775 1.0415 15.625V36.4583C1.0518 39.9058 3.844 42.698 7.2915 42.7083H18.7498" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M17.7085 9.37502V5.20835C17.7154 2.91002 19.5768 1.04855 21.8752 1.04169H28.1252C30.4235 1.04855 32.285 2.91002 32.2918 5.20835V9.37502" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M40.6252 9.375V18.75" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M34.3752 9.375V18.75" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.6252 9.375V42.7083" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M9.37516 9.375V42.7083" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M36.4585 48.9583C43.3621 48.9583 48.9585 43.3619 48.9585 36.4583C48.9585 29.5548 43.3621 23.9583 36.4585 23.9583C29.5549 23.9583 23.9585 29.5548 23.9585 36.4583C23.9585 43.3619 29.5549 48.9583 36.4585 48.9583Z" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M25.0918 31.25H27.0835C28.8094 31.25 30.2085 32.6491 30.2085 34.375C30.2085 35.5256 31.1412 36.4583 32.2918 36.4583C33.4424 36.4583 34.3751 37.3911 34.3751 38.5417C34.3751 41.4181 32.0433 43.75 29.1668 43.75H26.3043" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M48.5647 39.5833H46.8752C45.1493 39.5833 43.7502 38.1842 43.7502 36.4583C43.7502 35.3077 42.8174 34.375 41.6668 34.375C40.5162 34.375 39.5835 33.4422 39.5835 32.2916C39.5835 29.4152 41.9153 27.0833 44.7918 27.0833" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                     
+                                <p class="text-center">vakantie</p>         
+                            </div>
+                            </a>
+                        </div>
+                        <!-- hergroeperen -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <a href="">
+                            <div class="kredieten__layout d-flex flex-column align-items-center">
+                                <svg class="kredieten__svg" width="38" height="50" viewBox="0 0 38 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="1.04199" y="1.03961" width="35.4167" height="47.9167" rx="2" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1.81055 2.79376L7.50013 15.7958C8.00641 16.9559 9.15109 17.7065 10.4168 17.7083H27.0835C28.3482 17.7072 29.4926 16.9584 30.0001 15.8L35.6876 2.79585" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M35.3191 47.6521L30.5379 42.1896C29.6663 41.1939 28.407 40.6234 27.0837 40.625H10.4171C9.09315 40.6253 7.83361 41.1962 6.96081 42.1917L2.18164 47.6521" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.75 11.4562C20.4759 11.4562 21.875 10.0571 21.875 8.33124C21.875 6.60535 20.4759 5.20624 18.75 5.20624C17.0241 5.20624 15.625 6.60535 15.625 8.33124C15.625 10.0571 17.0241 11.4562 18.75 11.4562Z" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.75 34.3729C20.4759 34.3729 21.875 32.9738 21.875 31.2479C21.875 29.522 20.4759 28.1229 18.75 28.1229C17.0241 28.1229 15.625 29.522 15.625 31.2479C15.625 32.9738 17.0241 34.3729 18.75 34.3729Z" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M15.6247 8.33124V31.2479" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M21.8747 8.33124V31.2479" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                                          
+                                <p class="text-center">hergroeperen</p>         
+                            </div>
+                            </a>
+                        </div>
+                        <!-- renovatie -->
+                        <div class="col-6 col-sm-4 col-lg-4">
+                            <a href="">
+                            <div class="kredieten__layout d-flex flex-column align-items-center">
+                                <svg class="kredieten__svg" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M42.7085 26.0438C45.2973 26.0438 47.396 23.9451 47.396 21.3563C47.396 18.7674 45.2973 16.6688 42.7085 16.6688C40.1197 16.6688 38.021 18.7674 38.021 21.3563C38.021 23.9451 40.1197 26.0438 42.7085 26.0438Z" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M42.7085 28.125C39.2567 28.125 36.4585 30.9232 36.4585 34.375V39.5833H39.5835L40.6252 48.9583H44.7918L45.8335 39.5833H48.9585V34.375C48.9585 30.9232 46.1603 28.125 42.7085 28.125Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.2915 26.0438C9.88034 26.0438 11.979 23.9451 11.979 21.3563C11.979 18.7674 9.88034 16.6688 7.2915 16.6688C4.70267 16.6688 2.604 18.7674 2.604 21.3563C2.604 23.9451 4.70267 26.0438 7.2915 26.0438Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.2915 28.125C3.83972 28.125 1.0415 30.9232 1.0415 34.375V39.5833H4.1665L5.20817 48.9583H9.37484L10.4165 39.5833H13.5415V34.375C13.5415 30.9232 10.7433 28.125 7.2915 28.125Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M25.0002 22.9166C28.1643 22.9166 30.7293 20.3516 30.7293 17.1875C30.7293 14.0233 28.1643 11.4583 25.0002 11.4583C21.836 11.4583 19.271 14.0233 19.271 17.1875C19.271 20.3516 21.836 22.9166 25.0002 22.9166Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M32.2918 32.2917C32.2918 28.2646 29.0272 25 25.0002 25C20.9731 25 17.7085 28.2646 17.7085 32.2917V38.5417H21.0064L21.8752 48.9583H28.1252L28.9939 38.5417H32.2918V32.2917Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M1.0415 13.5417L24.0353 1.2771C24.6396 0.961426 25.3601 0.961426 25.9644 1.2771L48.9582 13.5417" stroke="#222222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>                                                    
+                                <p class="text-center">renovatie</p>         
+                            </div>
+                            </a>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+            </div>
+            <!-- WOONKREDIET KNOP -->
+            <div class="woonkrediet-knop row d-flex justify-content-center">
+                <a href="" class="btn btn-yellow">Maak een simulatie 
+                    <svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <title>rays</title>
+                        <desc>Created with Sketch.</desc>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="button/button-speciale-CTA/default" transform="translate(-152.000000, 0.000000)" fill="#EBBD00">
+                                <g id="rays">
+                                    <g transform="translate(152.000000, 0.000000)">
+                                        <path class="wifi-wave2" d="M40.4727336,40.4179033 C40.1235018,40.7961017 39.6572019,41 39.1330254,41 L34.96921,41 C33.9800489,41 33.1638596,40.2429454 33.1059831,39.2530521 C32.1451026,22.3347558 18.6638375,8.8518168 1.74681628,7.86192348 C0.756997568,7.80404267 0,6.98844951 0,6.02749659 L0,1.86336729 C0,1.33915136 0.203225238,0.873473971 0.582052865,0.52421593 C0.931284584,0.174957889 1.39758456,0 1.86322685,0 L1.95069921,0 C12.141557,0.52421593 21.720766,4.80476458 28.9421677,12.0556509 C36.1925075,19.2762814 40.4727336,28.8568701 40.99691,39.0491538 C41.0258482,39.5437716 40.8515612,40.0390471 40.4727336,40.4179033" id="Fill-24"></path>
+                                        <path class="wifi-wave1" d="M25.5039455,40.3904407 C25.155941,40.7968136 24.6624431,41 24.1401086,41 L20.2229281,41 C19.2654242,41 18.4815948,40.2737723 18.3950852,39.3174851 C17.5535828,30.4664213 10.5318875,23.4446909 1.68234943,22.6031058 C0.724845527,22.5152768 0,21.7320258 0,20.7744278 L0,16.8575174 C0,16.3344762 0.203166468,15.8415852 0.609499404,15.492891 C0.928011995,15.1750025 1.39267337,15 1.85667937,15 L2.0015174,15 C8.18171027,15.492891 14.0138987,18.1913381 18.3950852,22.6031058 C22.8051083,26.9840678 25.5039455,32.8168297 25.996788,38.9976303 C26.0262799,39.5193607 25.85195,40.0135626 25.5039455,40.3904407" id="Fill-25"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <!-- EINDE KNOP -->
+            
+    </section>
+
+    <section class="blog">
+        <h3 class="blog__uppertitle text-center">Nieuws & updates</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <article class="blog__article blog__woonkrediet">
+                        <a class="blog__link" href="">
+                            <div class="blog__image-container">
+                                <div class="blog__image-overlay d-flex justify-content-center align-items-center">
+                                    <img class="" src="assets/images/search.svg" alt="">
+                                </div>
+                                <img class="blog__image" src="assets/images/blog1.jpg" alt="">
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="blog__category">Woonkrediet</p>
+                                <p class="blog__date">5 maart 2020</p>
+                            </div>
+                            <h4 class="blog__title">Je woning verbouwen op latere leeftijd: wat met je hypotheek?</h4>
+                            <p class="blog__text">Je gaat richting 60… of hebt die kaap al gerond. Je zou graag je woning verbouwen 
+                                of renoveren. Daarvoor denk je aan een hypothecaire lening. Moet je dan een extra 
+                                woonkrediet afsluiten voor de verbouwingswerken of bestaan er voordeligere oplossingen?</p>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <article class="blog__article blog__lening-op-afbetaling">
+                        <a class="blog__link" href="">
+                            <div class="blog__image-container">
+                                <div class="blog__image-overlay d-flex justify-content-center align-items-center">
+                                    <img class="" src="assets/images/search.svg" alt="">
+                                </div>
+                                <img class="blog__image" src="assets/images/blog1.jpg" alt="">
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="blog__category">Lening op afbetaling</p>
+                                <p class="blog__date">5 maart 2020</p>
+                            </div>
+                            <h4 class="blog__title">Je woning verbouwen op latere leeftijd: wat met je hypotheek?</h4>
+                            <p class="blog__text">Je gaat richting 60… of hebt die kaap al gerond. Je zou graag je woning verbouwen 
+                                of renoveren. Daarvoor denk je aan een hypothecaire lening. Moet je dan een extra 
+                                woonkrediet afsluiten voor de verbouwingswerken of bestaan er voordeligere oplossingen?</p>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <article class="blog__article blog__woonkrediet">
+                        <a class="blog__link" href="">
+                            <div class="blog__image-container">
+                                <div class="blog__image-overlay d-flex justify-content-center align-items-center">
+                                    <img class="" src="assets/images/search.svg" alt="">
+                                </div>
+                                <img class="blog__image" src="assets/images/blog1.jpg" alt="">
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p class="blog__category">Woonkrediet</p>
+                                <p class="blog__date">5 maart 2020</p>
+                            </div>
+                            <h4 class="blog__title">Je woning verbouwen op latere leeftijd: wat met je hypotheek?</h4>
+                            <p class="blog__text">Je gaat richting 60… of hebt die kaap al gerond. Je zou graag je woning verbouwen 
+                                of renoveren. Daarvoor denk je aan een hypothecaire lening. Moet je dan een extra 
+                                woonkrediet afsluiten voor de verbouwingswerken of bestaan er voordeligere oplossingen?</p>
+                        </a>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="seo">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-10 col-lg-8">
+                    <p>
+                        Nam volutpat malesuada nisi ullamcorper pulvinar. Nam rhoncus ultrices risus, sed sagittis purus egestas ac. Ut massa sem, sagittis sit amet auctor non, efficitur ut orci. Donec efficitur tincidunt tellus sed maximus. Nam justo quam, ultricies quis augue sit amet, varius porttitor elit. In hac habitasse platea dictumst. Mauris nec mollis est, et tincidunt massa. Curabitur sodales sem quis dolor vulputate semper. Maecenas aliquet tempus elit, eget finibus massa elementum ac. Pellentesque elementum hendrerit interdum. In vitae dolor rhoncus, dignissim lorem vitae, tincidunt felis.
+                    </p>
+                    <p>
+                        Ut ultricies sapien vel placerat fringilla. Maecenas lacinia dolor at semper finibus. Curabitur ultricies lorem consectetur aliquam tincidunt. Mauris dapibus ut ante a congue. Integer ut tincidunt leo. Cras massa mauris, cursus et dignissim luctus, condimentum sed mi. Phasellus ac massa sapien. Morbi lobortis elementum lacinia. Mauris a nisi quis mauris vehicula ultricies ullamcorper eu odio. Praesent quis erat eu massa pharetra blandit in eget nulla.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__container">
+                <div class="col-12 col-sm-12 col-lg-3">
+                    <img class="footer__logo" src="/assets/images/logo-blue.svg" alt="logo">
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Simulaties</a>
+                        </li>
+                        <li>
+                            <a href="">Woonkrediet</a>
+                        </li>
+                        <li>
+                            <a href="">Tarieven Woonkrediet</a>
+                        </li>
+                        <li>
+                            <a href="">Woonkrediet</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Gezinsuitgaven</a>
+                        </li>
+                        <li>
+                            <a href="">Huwelijk</a>
+                        </li>
+                        <li>
+                            <a href="">Vakantie</a>
+                        </li>
+                        <li>
+                            <a href="">Studie</a>
+                        </li>
+                        <li>
+                            <a href="">Auto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Onze kantoren</a>
+                        </li>
+                        <li>
+                            <a href="">Juridische informatie</a>
+                        </li>
+                        <li>
+                            <a href="">Privacybeleid</a>
+                        </li>
+                        <li>
+                            <a href="">Disclaimer</a>
+                        </li>
+                        <li>
+                            <a href="">Lexicon</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+           <div class="container">
+               <div class="row justify-content-between ">
+                   <p class="col-auto footer__bottom__copyright">
+                        ©2020. Credishop. Alle rechten voorbehouden.
+                   </p>
+                   <p class="col-auto footer__bottom__webagency">
+                        Made with love by Dickytall.
+                   </p>
+               </div>
+           </div>
+        </div>
+
+        <section class="warning">
+            <p class="warning__text text-center">Let op, geld lenen kost ook geld</p>
+        </section>
+    </footer>
+
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/ofi.min.js"></script>
+    <script src="assets/js/resize-images.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    
+</body>
+</html>
+
