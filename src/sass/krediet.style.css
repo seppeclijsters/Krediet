@@ -1583,6 +1583,10 @@ header {
           flex-direction: column;
 }
 
+.blog .filter__layout-lening {
+  padding-bottom: 50px;
+}
+
 .blog .filter__category {
   font-size: 15px;
   min-width: 200px;
