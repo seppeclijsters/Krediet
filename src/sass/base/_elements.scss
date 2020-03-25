@@ -92,8 +92,8 @@ a:hover {
 @media (min-width: 576px) {
 
     h1 {
-        font-size: 62px;
-        line-height: 64px;
+        font-size: 56px;
+        line-height: 56px;
     }
     
     h2 {
@@ -142,6 +142,11 @@ a:hover {
 
 // // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+    h1 {
+        font-size: 62px;
+        line-height: 64px;
+    }
 
     .hide-for-tablet {
         display: block;

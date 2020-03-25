@@ -1,0 +1,53 @@
+.contact-form {
+
+    form {
+        padding: 75px 0;
+    }
+
+    &__select__title {
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    &__radio {
+        margin-bottom: 50px;
+    }
+}
+
+.checkbox__lening-op-afbetaling .contact-form__select__title {
+    color: $sec-green;
+}
+
+.checkbox__woonkrediet .contact-form__select__title {
+    color: $primary-darkblue;
+}
+
+.checkbox__woonkrediet {
+        margin-bottom: 40px;
+        
+}
+
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+
+}
+
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .checkbox__woonkrediet {
+        margin-bottom: 0;
+        
+    }
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+
+}

@@ -3,12 +3,13 @@
 }
 .form__item {
     position: relative;
-    margin-bottom: 25px;
+    margin-bottom: 50px;
 }
 
 // ------------------- LABEL ------------------
 
 label {
+    // pointer-events: none;
     position: absolute;
     top: -12.5px;
     left: 10px;
@@ -22,19 +23,20 @@ label {
 
 // ------------------- INPUT TEXT ------------------
 
-input[type=text] {
+input {
     padding-left: 10px;
     height: 55px;
-    font-size: 16px;
+    font-size: 14px;
     color: #00275B;
     border: 1px solid #BFBFBF;
     outline: none;
+    width: 100%;
 
     &:focus {
-        font-size: 16px;
+        border: 1px solid $primary-darkblue;
 
-        // & label {
-        //     color: $primary-darkblue;
+        // label {
+        //     color: $primary-darkblue!important;
         // }
     }
     
@@ -44,10 +46,10 @@ input[type=text] {
 
 
 textarea {
+    width: 100%;
     padding-left: 10px;
     padding-top: 10px;
-    height: 55px;
-    font-size: 16px;
+    font-size: 14px;
     color: #00275B;
     border: 1px solid #BFBFBF;
     outline: none;
@@ -58,23 +60,106 @@ textarea {
 }
 
 // -------------CUSTOM RADIO BUTTON--------------
-.radio {
+.checkbox {
     position: relative;
     display: flex;
     cursor: pointer;
     line-height: 20px;
-    font-size: 16px;
-    padding: 25px 0 0;
-    font-family: mmc-medium;
+    font-size: 14px;
+    padding: 10px 0 0;
+    width: 50%;
+    word-break: break-all;
+    padding-right: 10px;
 }
 
-.radio .label {
+.checkbox .label {
+    // pointer-events: all;
     position: relative;
     display: block;
     margin-right: 10px;
     width: 22px;
     height: 22px;
-    border: 1px solid #c8ccd4;
+    border: 1px solid #CFCFCF;
+    background: white;
+    border-radius: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.checkbox .label:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    background: $primary-darkblue;
+    transform: scale(0);
+    opacity: 0.08;
+    pointer-events: none;
+}
+
+.checkbox__woonkrediet .checkbox .label:after {
+    background: $primary-darkblue;
+}
+
+.checkbox__lening-op-afbetaling .checkbox .label:after {
+    background: $sec-green;
+}
+
+.checkbox__woonkrediet input[type="checkbox"]:hover+.label {
+    border-color: $primary-darkblue;
+}
+
+
+.checkbox__lening-op-afbetaling input[type="checkbox"]:hover+.label {
+    border-color: $sec-green;
+}
+
+
+input[type="checkbox"]:checked+.label:after {
+    transform: scale(1);
+    transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.select {
+    
+    & label {
+        background: unset;
+    }
+
+}
+
+
+
+// ------------------- RADIO --------------------
+
+.radio {
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 10px 0 0;
+    width: 50%;
+    word-break: break-all;
+    padding-right: 10px;
+}
+
+.radio .label {
+    // pointer-events: all;
+    position: relative;
+    display: block;
+    margin-right: 10px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #CFCFCF;
+    background: white;
     border-radius: 100%;
     -webkit-tap-highlight-color: transparent;
 }
@@ -93,13 +178,23 @@ textarea {
     pointer-events: none;
 }
 
-input[type="radio"]:hover+.label {
+.radio__woonkrediet .radio .label:after {
+    background: $primary-darkblue;
+}
+
+.radio__lening-op-afbetaling .radio .label:after {
+    background: $sec-green;
+}
+
+.radio__woonkrediet input[type="radio"]:hover+.label {
     border-color: $primary-darkblue;
 }
 
-input[type="radio"]:checked+.label {
-    border-color: $primary-darkblue;
+
+.radio__lening-op-afbetaling input[type="radio"]:hover+.label {
+    border-color: $sec-green;
 }
+
 
 input[type="radio"]:checked+.label:after {
     transform: scale(1);
@@ -113,8 +208,57 @@ input[type="radio"]:checked+.label:after {
 
 .select {
     
-    & .label {
-        
+    & label {
+        background: unset;
     }
+
+}
+
+// ------------------- SUBMIT ------------------
+
+input[type="submit"] {
+    background-color: $primary-darkblue;
+    color: white;
+    width: auto;
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    padding: 18px 20px;
+    text-align: center;
+    line-height: 14px;
+    min-width: 160px;
+    border-radius: 24.5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    label {
+        font-size: 16px;
+    }
+
+    textarea {
+        font-size: 16px;
+    }
+
+    .checkbox {
+        font-size: 16px;
+    }
+}
+
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
 
 }

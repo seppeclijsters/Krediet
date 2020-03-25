@@ -272,8 +272,8 @@ a:hover {
 
 @media (min-width: 576px) {
   h1 {
-    font-size: 62px;
-    line-height: 64px;
+    font-size: 56px;
+    line-height: 56px;
   }
   h2 {
     font-size: 56px;
@@ -304,6 +304,10 @@ a:hover {
 }
 
 @media (min-width: 992px) {
+  h1 {
+    font-size: 62px;
+    line-height: 64px;
+  }
   .hide-for-tablet {
     display: block;
   }
@@ -326,7 +330,7 @@ a:hover {
 
 .form__item {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
 }
 
 label {
@@ -341,24 +345,25 @@ label {
   line-height: 24px;
 }
 
-input[type=text] {
+input {
   padding-left: 10px;
   height: 55px;
-  font-size: 16px;
+  font-size: 14px;
   color: #00275B;
   border: 1px solid #BFBFBF;
   outline: none;
+  width: 100%;
 }
 
-input[type=text]:focus {
-  font-size: 16px;
+input:focus {
+  border: 1px solid #0A51A1;
 }
 
 textarea {
+  width: 100%;
   padding-left: 10px;
   padding-top: 10px;
-  height: 55px;
-  font-size: 16px;
+  font-size: 14px;
   color: #00275B;
   border: 1px solid #BFBFBF;
   outline: none;
@@ -368,6 +373,79 @@ textarea:focus {
   font-size: 16px;
 }
 
+.checkbox {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  line-height: 20px;
+  font-size: 14px;
+  padding: 10px 0 0;
+  width: 50%;
+  word-break: break-all;
+  padding-right: 10px;
+}
+
+.checkbox .label {
+  position: relative;
+  display: block;
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+  border: 1px solid #CFCFCF;
+  background: white;
+  border-radius: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.checkbox .label:after {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background: #0A51A1;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+.checkbox__woonkrediet .checkbox .label:after {
+  background: #0A51A1;
+}
+
+.checkbox__lening-op-afbetaling .checkbox .label:after {
+  background: #8B9C22;
+}
+
+.checkbox__woonkrediet input[type="checkbox"]:hover + .label {
+  border-color: #0A51A1;
+}
+
+.checkbox__lening-op-afbetaling input[type="checkbox"]:hover + .label {
+  border-color: #8B9C22;
+}
+
+input[type="checkbox"]:checked + .label:after {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+  transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.select label {
+  background: unset;
+}
+
 .radio {
   position: relative;
   display: -webkit-box;
@@ -375,9 +453,11 @@ textarea:focus {
   display: flex;
   cursor: pointer;
   line-height: 20px;
-  font-size: 16px;
-  padding: 25px 0 0;
-  font-family: mmc-medium;
+  font-size: 14px;
+  padding: 10px 0 0;
+  width: 50%;
+  word-break: break-all;
+  padding-right: 10px;
 }
 
 .radio .label {
@@ -386,7 +466,8 @@ textarea:focus {
   margin-right: 10px;
   width: 22px;
   height: 22px;
-  border: 1px solid #c8ccd4;
+  border: 1px solid #CFCFCF;
+  background: white;
   border-radius: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -406,12 +487,20 @@ textarea:focus {
   pointer-events: none;
 }
 
-input[type="radio"]:hover + .label {
+.radio__woonkrediet .radio .label:after {
+  background: #0A51A1;
+}
+
+.radio__lening-op-afbetaling .radio .label:after {
+  background: #8B9C22;
+}
+
+.radio__woonkrediet input[type="radio"]:hover + .label {
   border-color: #0A51A1;
 }
 
-input[type="radio"]:checked + .label {
-  border-color: #0A51A1;
+.radio__lening-op-afbetaling input[type="radio"]:hover + .label {
+  border-color: #8B9C22;
 }
 
 input[type="radio"]:checked + .label:after {
@@ -424,6 +513,38 @@ input[type="radio"]:checked + .label:after {
 
 .hidden {
   display: none;
+}
+
+.select label {
+  background: unset;
+}
+
+input[type="submit"] {
+  background-color: #0A51A1;
+  color: white;
+  width: auto;
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  padding: 18px 20px;
+  text-align: center;
+  line-height: 14px;
+  min-width: 160px;
+  border-radius: 24.5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  label {
+    font-size: 16px;
+  }
+  textarea {
+    font-size: 16px;
+  }
+  .checkbox {
+    font-size: 16px;
+  }
 }
 
 .main-nav {
@@ -1349,6 +1470,76 @@ header {
 @media (min-width: 992px) {
   .offices {
     margin: 70px 0;
+  }
+}
+
+.contact-form form {
+  padding: 75px 0;
+}
+
+.contact-form__select__title {
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+.contact-form__radio {
+  margin-bottom: 50px;
+}
+
+.checkbox__lening-op-afbetaling .contact-form__select__title {
+  color: #8B9C22;
+}
+
+.checkbox__woonkrediet .contact-form__select__title {
+  color: #0A51A1;
+}
+
+.checkbox__woonkrediet {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .checkbox__woonkrediet {
+    margin-bottom: 0;
+  }
+}
+
+.blog-detail__image-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.blog-detail__image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.blog-detail__title {
+  color: white;
+  text-align: center;
+}
+
+.blog-detail__image-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 576px) {
+  .blog-detail__image-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
   }
 }
 /*# sourceMappingURL=krediet.style.css.map */
