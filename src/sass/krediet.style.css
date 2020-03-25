@@ -1669,4 +1669,78 @@ header {
     height: 500px;
   }
 }
+
+.kantoren-detail {
+  margin-top: 80px;
+  min-height: 300px;
+  background-color: #EBF0F3;
+}
+
+.kantoren-detail__container {
+  padding: 0;
+}
+
+.kantoren-detail__layout {
+  padding: 80px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.kantoren-detail__adress {
+  background-color: #EBF0F3;
+}
+
+.kantoren-detail__map {
+  padding: 0;
+}
+
+.kantoren-detail__content {
+  padding: 50px;
+  padding-right: 10vw;
+}
+
+.kantoren-detail__uren {
+  color: white;
+  background-color: #0A51A1;
+  padding: 50px;
+  padding-left: 20vw;
+}
+
+.kantoren-detail h1 {
+  font-size: 47px;
+  letter-spacing: -0.8px;
+  margin-bottom: 20px;
+}
+
+.kantoren-detail .adress-data {
+  width: 473px;
+  margin: 30px 0 30px 10px;
+}
+
+.kantoren-detail .adress-data-per {
+  margin: 20px 0;
+}
+
+.kantoren-detail span {
+  font-size: 22px;
+}
+
+.kantoren-detail .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.kantoren-detail p {
+  padding-top: 10px;
+}
 /*# sourceMappingURL=krediet.style.css.map */
