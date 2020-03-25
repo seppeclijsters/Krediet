@@ -1514,6 +1514,13 @@ header {
   }
 }
 
+.blog-detail p {
+  font-size: 16px;
+  color: #000303;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
 .blog-detail__image-container {
   position: relative;
   width: 100%;
@@ -1541,6 +1548,28 @@ header {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.blog-detail__category {
+  margin-top: 50px;
+  font-weight: Bold;
+  font-size: 15px;
+  color: #0A51A1;
+  line-height: 18px;
+}
+
+.blog-detail__date {
+  margin-top: 50px;
+  font-size: 13px;
+  color: rgba(93, 96, 97, 0.5);
+  line-height: 18px;
+}
+
+.blog-detail__intro {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #000303;
+  line-height: 32px;
 }
 
 @media (min-width: 576px) {
