@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/sass/krediet.style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="main-nav d-flex justify-content-between">
+        <div class="d-flex">
+            <a href="#" class="main-nav__logo">
+                <img src="/assets/images/logo.svg" alt="logo">
+            </a>
+
+            <!-- <li class="main-nav__list__item main-nav__list__item-home flex-fill ">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li> -->
+        </div>
+        <ul class="main-nav__list d-flex flex-fill ">
+            <li class="main-nav__list__item main-nav__list__item-home flex-fill ">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#news" class="nav-link">nieuws</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#models" class="nav-link">onze modellen</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#contact-us" class="nav-link">contact</a>
+            </li>
+            <li class="main-nav__list__item flex-fill hide-for-tablet">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="main-nav__list__item  hide-for-desktop">
+                <a href="#" class="nav-link mobile-nav__item__link hamburger" id="hamburger-1">
+                        <span class="line"></span>
+                        <span class="line"></span>
+                        <span class="line"></span>
+                </a>
+            </li>
+            
+            <li class="main-nav__list__item hide-for-desktop">
+                <a href="#" class="nav-link  mobile-nav__item__link">FR</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="mobile-nav hide-for-desktop">
+        <ul class="mobile-nav__list">
+            <li class="mobile-nav__list__item">
+                <a href="#about-us" class="nav-link">Simulatie</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#news" class="nav-link">nieuws</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#models" class="nav-link">onze modellen</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#contact-us" class="nav-link">contact</a>
+            </li>
+            <li class="mobile-nav__list__item">
+                <a href="#" class="nav-link">occassies</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- KANTOREN DETAIL -->
+    <section class="kantoren-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-12 kantoren-detail__container">
+                    <div class="row d-flex">
+                        <div class="col-12 col-sm-6 col-lg-6 kantoren-detail__layout kantoren-detail__adress">
+                            <h1>Credishop Antwerpen</h1>
+                            <div class="adress-data">
+                                <a href="">
+                                    <div class="adress adress-data-per">
+                                        <svg width="23" height="34" viewBox="0 0 23 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.667 1.94666C17.1898 1.94666 21.667 6.42381 21.667 11.9467C21.667 16.676 14.3337 28.4547 12.2283 31.7467C12.1058 31.938 11.8942 32.0537 11.667 32.0537C11.4398 32.0537 11.2282 31.938 11.1057 31.7467C9.00033 28.456 1.66699 16.676 1.66699 11.9467C1.66699 6.42381 6.14414 1.94666 11.667 1.94666Z" stroke="#0A51A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.667 15.9467C13.8761 15.9467 15.667 14.1558 15.667 11.9467C15.667 9.73752 13.8761 7.94666 11.667 7.94666C9.45785 7.94666 7.66699 9.73752 7.66699 11.9467C7.66699 14.1558 9.45785 15.9467 11.667 15.9467Z" stroke="#0A51A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>  
+                                        <span class="span_layout">Boterlaarbaan 336, 2100 Deurne</span>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="telefoon adress-data-per">
+                                        <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M21.9792 11.9858V11.9858C15.7245 10.6714 9.2755 10.6714 3.02083 11.9858C1.30056 12.3738 0.0562954 13.9119 0 15.7201V17.325C0 18.8024 1.16593 20 2.60417 20H5.72917C7.16741 20 8.33333 18.8024 8.33333 17.325V16.7419C11.1057 16.4894 13.8943 16.4894 16.6667 16.7419V17.325C16.6667 18.8024 17.8326 20 19.2708 20H22.3958C23.8341 20 25 18.8024 25 17.325V15.7201C24.9437 13.9119 23.6994 12.3738 21.9792 11.9858Z" fill="#0A51A1"/>
+                                            <path d="M11.5 9C12.3284 9 13 8.38534 13 7.62713V2.37287C13 1.61466 12.3284 1 11.5 1C10.6716 1 10 1.61466 10 2.37287V7.62713C10 8.38534 10.6716 9 11.5 9V9Z" fill="#0A51A1"/>
+                                            <path d="M17.2841 9.99796C17.6268 9.9986 17.9554 9.86239 18.1962 9.61989L21.6277 6.17747C22.1271 5.67635 22.1237 4.86731 21.62 4.37043C21.1162 3.87355 20.303 3.87698 19.8036 4.37809L16.3721 7.82358C16.0072 8.18978 15.8995 8.73832 16.0989 9.21424C16.2983 9.69016 16.7659 10.0001 17.2841 10V9.99796Z" fill="#0A51A1"/>
+                                            <path d="M5.80375 9.62178C6.30296 10.1229 7.11602 10.1265 7.61977 9.62995C8.12352 9.13338 8.1272 8.32461 7.62799 7.82352L4.19625 4.37822C3.69704 3.87714 2.88398 3.87348 2.38023 4.37005C1.87648 4.86662 1.8728 5.67539 2.37201 6.17648L5.80375 9.62178Z" fill="#0A51A1"/>
+                                        </svg>    
+                                        <span>078/050 800</span>
+                                    </div>
+                                </a>
+                                <a href="">
+                                    <div class="mail adress-data-per">
+                                        <svg width="25" height="17" viewBox="0 0 25 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M11.5503 10.632C12.0746 11.1227 12.9232 11.1227 13.4476 10.632L23.8421 0.876262C23.9861 0.741667 24.0367 0.542314 23.9728 0.361278C23.909 0.180241 23.7416 0.0485775 23.5406 0.0211526C23.4386 0.00705038 23.3357 -1.89218e-05 23.2326 1.48154e-06H1.76956C1.66577 -0.000117683 1.56211 0.00695189 1.45942 0.0211526C1.25835 0.0485775 1.09103 0.180241 1.02719 0.361278C0.963348 0.542314 1.01393 0.741667 1.15787 0.876262L11.5503 10.632Z" fill="#0A51A1"/>
+                                            <path d="M24.8833 2.01532C24.8121 1.98461 24.7296 2.00093 24.675 2.05657L18.2167 8.61395C18.1152 8.7175 18.1152 8.8848 18.2167 8.98836L23.4698 14.322C23.673 14.5211 23.7546 14.816 23.6832 15.0934C23.6118 15.3707 23.3986 15.5874 23.1255 15.6602C22.8524 15.7329 22.5619 15.6503 22.3656 15.4442L17.1125 10.1105C17.0636 10.0608 16.9973 10.0328 16.9281 10.0328C16.8589 10.0328 16.7926 10.0608 16.7437 10.1105L14.526 12.3622C13.4075 13.4973 11.5946 13.4973 10.476 12.3622L8.25625 10.1126C8.15426 10.0096 7.98949 10.0096 7.8875 10.1126L2.63437 15.4463C2.32769 15.7468 1.84042 15.7423 1.53921 15.4361C1.23799 15.13 1.23399 14.6353 1.53021 14.3242L6.78333 8.99047C6.88477 8.88692 6.88477 8.71962 6.78333 8.61607L0.325 2.05868C0.270643 2.0025 0.187829 1.98611 0.116667 2.01743C0.0467138 2.04702 0.000834665 2.11606 0 2.193V14.8847C0 16.053 0.93274 17 2.08333 17H22.9167C24.0673 17 25 16.053 25 14.8847V2.193C25.0003 2.11521 24.9542 2.04497 24.8833 2.01532Z" fill="#0A51A1"/>
+                                        </svg>    
+                                        <span>info@credishop-antwerpen.be</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="button">
+                                <a href="" class="btn btn-blue">Maak nu een afspraak</a>
+                            </div>
+                        
+                        
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6 kantoren-detail__layout kantoren-detail__map">
+                            <!-- <p>boo</p> -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.029234139367!2d4.464952715915557!3d51.163250443628044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3fa0e9608a945%3A0x7a381a9f337f65a0!2sKapenbergstraat%2028%2C%202640%20Mortsel!5e0!3m2!1snl!2sbe!4v1585149485813!5m2!1snl!2sbe" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="row">
+                <div class="col-12 col-sm-12 col-lg-12 kantoren-detail__container">
+                    <div class="row d-flex">
+                        <div class="col-12 col-sm-6 col-lg-6 kantoren-detail__uren justify-content-center align-content-center">
+                            <svg width="47" height="47" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23 46.002C35.7025 46.002 46 35.7046 46 23.002C46 10.2995 35.7025 0.00201416 23 0.00201416C10.2975 0.00201416 0 10.2995 0 23.002C0 35.7046 10.2975 46.002 23 46.002Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M35.0003 35.002L25.1143 25.118" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23 26.002C24.6569 26.002 26 24.6589 26 23.002C26 21.3452 24.6569 20.002 23 20.002C21.3431 20.002 20 21.3452 20 23.002C20 24.6589 21.3431 26.002 23 26.002Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M23 12.002V20.002" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            <p>maandag		09u00 — 17u00</p>
+                            <p>dinsdag		09u00 — 17u00</p>
+                            <p>woensdag		09u00 — 17u00</p>
+                            <p>donderdag		09u00 — 17u00</p>
+                            <p>vrijdag			09u00 — 17u00</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-6 d-flex flex-column kantoren-detail__content">
+                            <p class="">Maak een afspraak met Johan bij Credishop Antwerpen om jouw project te bespreken. Hij maakt met alle plezier tijd voor je vrij en maakt een simulatie van je lening.</p>
+                            <p>Heb je al een bestaand kredietaanbod? Johan zal het voor je vergelijken om je betere voorwaarden te kunnen geven. Wij zijn er om jou te helpen. Bel hem op via 078/050 800 of stuur een mail. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </section>
+    <section class="lenen-in-antwerpen">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>LENEN IN ANTWERPEN? AUXIFINA ANTWERPEN, UW REGIONALE KREDIETMAKELAAR</h2>
+                    <p>Ben je op zoek naar een nieuwe hypothecaire lening in regio Antwerpen om uw project te financieren? Dan ben je bij Auxifina Antwerpen aan het juiste adres. Onze kredietmakelaar Johan begeleidt je stap voor stap naar de hypothecaire lening die het best bij jou past. Met betrekking tot ons gamma aan hypothecaire leningen stellen we u een woonkrediet of woonlening, een overbruggingskrediet, een renovatiekrediet, een hypothecair krediet bij scheiding, hergroepering van kredieten,... voor. Een financiële oplossing op maat van uw budget, de garantie op een snelle en discrete behandeling van uw dossier en duidelijke, transparante communicatie. We bieden kredietadvies dat echt persoonlijk is en waardoor we geen gewone kredietbemiddelaar zijn, maar een echte onafhankelijke kredietmakelaar in Antwerpen voor persoonlijk kredietadvies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- EINDE KANTOREN DETAIL -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row footer__container">
+                <div class="col-12 col-sm-12 col-lg-3">
+                    <img class="footer__logo" src="/assets/images/logo-blue.svg" alt="logo">
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Simulaties</a>
+                        </li>
+                        <li>
+                            <a href="">Woonkrediet</a>
+                        </li>
+                        <li>
+                            <a href="">Tarieven Woonkrediet</a>
+                        </li>
+                        <li>
+                            <a href="">Woonkrediet</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Gezinsuitgaven</a>
+                        </li>
+                        <li>
+                            <a href="">Huwelijk</a>
+                        </li>
+                        <li>
+                            <a href="">Vakantie</a>
+                        </li>
+                        <li>
+                            <a href="">Studie</a>
+                        </li>
+                        <li>
+                            <a href="">Auto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-3">
+                    <ul class="">
+                        <li>
+                            <a href="">Onze kantoren</a>
+                        </li>
+                        <li>
+                            <a href="">Juridische informatie</a>
+                        </li>
+                        <li>
+                            <a href="">Privacybeleid</a>
+                        </li>
+                        <li>
+                            <a href="">Disclaimer</a>
+                        </li>
+                        <li>
+                            <a href="">Lexicon</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+           <div class="container">
+               <div class="row justify-content-between ">
+                   <p class="col-auto footer__bottom__copyright">
+                        ©2020. Credishop. Alle rechten voorbehouden.
+                   </p>
+                   <p class="col-auto footer__bottom__webagency">
+                        Made with love by Dickytall.
+                   </p>
+               </div>
+           </div>
+        </div>
+
+        <section class="warning">
+            <p class="warning__text text-center">Let op, geld lenen kost ook geld</p>
+        </section>
+    </footer>
+
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/ofi.min.js"></script>
+    <script src="assets/js/resize-images.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    
+</body>
+</html>
+
