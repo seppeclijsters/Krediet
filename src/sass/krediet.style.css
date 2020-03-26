@@ -2212,7 +2212,6 @@ button:disabled {
 }
 
 .kantoren-detail {
-  margin-top: 60px;
   min-height: 300px;
   background-color: #EBF0F3;
 }
@@ -2347,6 +2346,9 @@ button:disabled {
 
 .lenen-in-antwerpen {
   padding: 80px 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .lenen-in-antwerpen__content {
@@ -2382,9 +2384,6 @@ button:disabled {
 }
 
 @media (min-width: 992px) {
-  .kantoren-detail {
-    margin-top: 80px;
-  }
   .kantoren-detail h1 {
     font-size: 47px;
     letter-spacing: -0.8px;
