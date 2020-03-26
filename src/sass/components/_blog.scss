@@ -2,7 +2,7 @@
     font-family: 'roboto';
     font-size: 24px;
     line-height: 32px;
-    margin: 50px 0;
+    margin-bottom: 50px;
 }
 
 .blog__article {
@@ -10,6 +10,7 @@
 }
 
 .blog {
+    margin: 50px 60px;
 
     &__link {
         display: inline-block;
@@ -139,8 +140,12 @@
 // // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
 
+    .blog {
+        margin: 70px 100px;
+    }
+
     .blog__uppertitle {
-        margin: 70px 0;
+        margin-bottom: 70px;
     }
 
     .header__intro__title {

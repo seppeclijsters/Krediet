@@ -20,14 +20,35 @@
         padding:0;
     }
     &__content{
-        padding:50px;
-        padding-right:10vw;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 50px;
+        // max-width: 570px;
+        // width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        // padding:50px;
+        // padding-right:10vw;
     }
+
+    &__container {
+        max-width: 570px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     &__uren{
+        padding-top: 60px;
+        padding-bottom: 60px;
         color: white;
         background-color: $primary-darkblue;
-        padding:50px;
-        padding-left:20vw;
+
+
+        display: flex;
+        justify-content: flex-end;
     }
     h1{
         font-size: 47px;
@@ -67,4 +88,8 @@
 // // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
+}
+
+.no-gutter {
+    padding: 0!important;
 }

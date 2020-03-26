@@ -1,10 +1,14 @@
 .intro{
-    padding:100px 0 60px 0;
+    padding:40px 0 60px 0;
     background-color: #EBF0F3;
     &__text{
         margin:30px 0;
         font-family: "roboto";
     }
+}
+
+.intro-woonkrediet {
+    margin: 40px 0;
 }
 
 @media (min-width: 576px) {
@@ -19,7 +23,11 @@
 
 // // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-        .intro{
-        padding:170px 0 100px 0;
+    .intro{
+        padding:100px 0 100px 0;
+    }
+
+    .intro-woonkrediet {
+        margin: 100px 0;
     }
 }
