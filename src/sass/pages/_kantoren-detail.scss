@@ -6,8 +6,8 @@
         padding:0;
     }
     &__layout{
-        padding-top: 80px;
-        padding-bottom: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         display: flex;
         justify-content: flex-end;
     }
@@ -34,7 +34,7 @@
         align-items: center;
     }
     &__info{
-        padding-left: 30px;
+        padding-left: 0;
     }
     &__uren{
         padding-top: 80px;
@@ -45,24 +45,31 @@
         justify-content: flex-end;
     }
     h1{
-        font-size: 47px;
-        letter-spacing: -0.8px;
-        margin-bottom: 20px
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.514286px;
     }
     .adress-data{
-        width: 473px;
-        margin: 80px 0 80px 10px;
+        margin: 30px 0 30px 10px;
     }
     .adress-data-per{
+        display: flex;
         margin: 30px 0;
     }
-    span{
-        font-size: 22px;
+    .span_layout{
+        padding-left: 20px;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .span_layout_mail{
+        padding-left: 20px;
+        font-size: 20px;
+        line-height: 17px;
     }
     .button{
         display: flex;
         justify-content: center;
-        margin-top: 20px;
+        margin-top: 0px;
     }
     p{
         padding-top: 10px;
@@ -96,11 +103,30 @@
 }
 
 @media (min-width: 576px) {
+    .kantoren-detail{
+        h1{
+            font-size: 56px;
+            line-height: 56px;
+            letter-spacing: -0.8px;
+        }
+        .adress-data{
+            margin: 60px 0 60px 10px;
+        }
+        &__layout{
+            padding-top: 70px;
+            padding-bottom: 60px;
+        }
+        &__map{
+            min-height: 450px;
+            padding:0;
+        }
+    }
 
 }
 
 // // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
+
 
 }
 
@@ -109,9 +135,32 @@
 @media (min-width: 992px) {
     .kantoren-detail{
         margin-top: 80px;
+
+        h1{
+            font-size: 47px;
+            letter-spacing: -0.8px;
+        }
+        span{        
+            font-size: 22px;
+        }
+        .adress-data{
+            margin: 80px 0 80px 10px;
+        }
         &__container {
             max-width: 570px;
             width: 100%;
+        }
+        &__info{
+            padding-left: 30px;
+        }
+        &__layout{
+            padding-top: 80px;
+            padding-bottom: 100px;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
         }
     }
 
