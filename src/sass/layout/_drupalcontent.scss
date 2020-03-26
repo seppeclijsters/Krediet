@@ -29,19 +29,52 @@
     }
 
     & .quote {
-        font-size: 24px;
+        padding-left: 50px;
+        font-size: 20px;
         color: $primary-darkblue;
-        line-height: 32px;
+        line-height: 26px;
 
         &:before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 50px;
-            height: 50px;
-            background-color: red;
+            top: 8px;
+            left: 10px;
+            width: 37px;
+            height: 28px;
+            background-image: url(/../../assets/images/quote.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
 
         }
     }
+}
+
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    .drupal-content {
+        & .quote {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+
+}
+
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .hidden-nav {
+        height: 80px;
+    }
+
 }

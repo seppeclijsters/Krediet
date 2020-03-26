@@ -78,6 +78,8 @@
 
     <section class="simulator" style="margin-top:300px">
         <h1 class="simulator__title text-center">Bereken jouw woonkrediet</h1>
+
+        <div id=simuleer_hypothecair_krediet></div>
     </section>
 
     <section class="seo">
@@ -98,16 +100,20 @@
     <section class="contact">
         <h3 class="contact__title">Contacteer ons vrijblijvend</h3>
         <div class="row justify-content-center contact__info">
-            <div class="col-12 col-sm-auto d-flex flex-column align-items-center justify-content-center contact__info-container">
-                <img class="contact__info__image" src="assets/images/phone-circle.svg" alt="">
-                <a class="contact__info__link" href="tel:02232332">+32 (0)78 05 08 00</a>
+            <div class="col-12 col-sm-auto  contact__info-container">
+                <a href="tel:02232332" class="d-flex flex-column align-items-center justify-content-center">
+                    <img class="contact__info__image" src="assets/images/phone-circle.svg" alt="">
+                    <p class="contact__info__link">+32 (0)78 05 08 00</p>
+                </a>
             </div>
             <div class="col-8 col-sm-auto">
                 <div class="contact__border"></div>
             </div>
-            <div class="col-12 col-sm-auto d-flex flex-column align-items-center justify-content-center contact__info-container">
-                <img class="contact__info__image" src="assets/images/mail-window.svg" alt="">
-                <a class="contact__info__link" href="mailto:info@credishop.be">info@credishop.be</a>
+            <div class="col-12 col-sm-auto contact__info-container">
+                <a href="mailto:info@credishop.be" class="d-flex flex-column align-items-center justify-content-center">
+                    <img class="contact__info__image" src="assets/images/mail-window.svg" alt="">
+                    <p class="contact__info__link">info@credishop.be</p>
+                </a>
             </div>
         </div>
         <div class="d-flex justify-content-center">
@@ -233,6 +239,8 @@
     <script src="assets/js/navigation.js"></script>
     <script src="assets/js/ofi.min.js"></script>
     <script src="assets/js/resize-images.js"></script>
+
+    <script src=assets/js/simulator/chunk-vendors.js></script><script src=assets/js/simulator/app.js></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
