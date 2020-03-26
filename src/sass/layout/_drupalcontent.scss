@@ -11,7 +11,7 @@
         font-size: 16px;
         color: $primary-darkblue;
         line-height: 18px;
-        margin-top: 30px;
+        // margin-top: 30px;
         margin-bottom: 25px;
         font-weight: bold;
         font-family: 'roboto';
@@ -27,4 +27,54 @@
         color: $primary-darkblue;
         text-decoration: underline;
     }
+
+    & .quote {
+        padding-left: 50px;
+        font-size: 20px;
+        color: $primary-darkblue;
+        line-height: 26px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 8px;
+            left: 10px;
+            width: 37px;
+            height: 28px;
+            background-image: url(/../../assets/images/quote.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+
+        }
+    }
+}
+
+
+// // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+    .drupal-content {
+        & .quote {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+
+}
+
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    .hidden-nav {
+        height: 80px;
+    }
+
 }

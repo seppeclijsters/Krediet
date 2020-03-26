@@ -33,3 +33,368 @@
     }
 
 }
+
+// ------------------------ SIMULATOR --------------------------
+
+
+button {
+    cursor: pointer;
+}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.hidden {
+    display: none;
+}
+.rij {
+    display: flex;
+    max-height: 615px;
+}
+.berekeningsimulatie {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    width: 100vw;
+    background: #1655d9;
+}
+.form__extra {
+    margin-top: 0;
+}
+.form__extra .bs-uitkomst__aanvragen {
+    margin-top: 0;
+}
+.bs {
+    width: 80vw;
+    max-width: 1140px;
+}
+.bs button {
+    outline: none;
+    height: 40px;
+}
+.bs button:hover {
+    opacity: 0.9;
+}
+.bs button:active {
+    opacity: 0.8;
+}
+.bs-form {
+    background-color: white;
+    padding: 40px;
+    width: 80%;
+    max-width: 400px;
+}
+.bs-form form {
+    flex-direction: column;
+    align-items: stretch;
+}
+.bs-form form > :nth-child(n) {
+    margin-top: 40px;
+}
+.bs-form__question__div h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.bs-form__slider__div__button {
+    width: 100%;
+    background-color: white;
+    border: solid rgba(53, 53, 53, 0.2) 1px;
+    padding: 0 5px;
+    font-size: 11px;
+}
+.bs-form__slider__div__button--active {
+    background-color: #1655d9;
+    border: none;
+    color: white;
+}
+.bs-form__slider__div__button--active:hover {
+    opacity: 1 !important;
+    cursor: auto !important;
+}
+.bs-form__input__div {
+    align-items: stretch;
+}
+.bs-form__input__div > div {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    border: solid rgba(53, 53, 53, 0.2) 1px;
+    border-color: rgba(53, 53, 53, 0.2) #1655d9;
+    background: none;
+    font-size: 14px;
+}
+.bs-form__input__div label {
+    height: 100%;
+    margin-right: 20px;
+    text-align: right;
+    vertical-align: middle;
+    color: rgba(53, 53, 53, 0.7);
+    display: flex;
+    align-items: center;
+}
+.bs-form__input__div input {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    color: rgba(53, 53, 53, 0.7);
+    font-size: 14px;
+}
+.bs-form__input__div button {
+    width: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 5px;
+    border: none;
+    background: #1655d9;
+    color: white;
+}
+.bs-form__bereken {
+    border: none;
+    background: #1655d9;
+    color: white;
+    padding: 0 20px;
+    font-size: 16px;
+}
+.bs-uitkomst {
+    text-align: center;
+    width: 100%;
+    padding: 40px;
+    margin-left: 20px;
+    background-color: #8b9c22;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bs-uitkomst__aanvragen {
+    border: none;
+    background: #db7b23;
+    color: white;
+    padding: 10px 30px;
+    font-size: 14px;
+    margin: 14px 0;
+}
+.bs-uitkomst__resultaat {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.bs-uitkomst__resultaat__bedrag {
+    font-size: 50px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 5px 0 0;
+}
+.bs-uitkomst__resultaat__bedrag__wrap {
+    display: flex;
+    justify-content: center;
+}
+.bs-uitkomst__resultaat__eur {
+    font-weight: bold;
+    color: #1655d9;
+    margin-top: 15px;
+}
+.bs-uitkomst__uitleg {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+.bs-uitkomst__jkp__info {
+    cursor: pointer;
+    color: #1655d9;
+    text-decoration: underline;
+}
+.simulation-legal {
+    position: relative;
+    text-align: left;
+    overflow-y: scroll;
+    line-height: 1.5;
+}
+.simulation-legal li {
+    color: inherit;
+}
+.simulation-legal::-webkit-scrollbar {
+    background-color: rgba(255, 255, 253, 0.5);
+    border-radius: 20px;
+}
+.simulation-legal::-webkit-scrollbar-thumb {
+    background-color: #1655d9;
+    border-radius: 20px;
+}
+.simulation-legal > div > div {
+    margin-bottom: 60px;
+    padding-right: 40px;
+}
+.simulation-legal > div > div > h2, .simulation-legal > div > div > p, .simulation-legal > div > div > ul {
+    margin-bottom: 20px;
+}
+.simulation-legal > div > div > ul {
+    padding-left: 20px;
+}
+.simulation-legal__exit {
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+.simulation-legal__exit button {
+    border-radius: 1px;
+    cursor: pointer;
+    background: #db7b23;
+}
+.bs-uitkomst__resultaat-color {
+    color: #1655d9;
+}
+.submit__formulier {
+    cursor: pointer;
+    color: #1655d9;
+    text-decoration: underline;
+    background: none;
+    height: auto !important;
+    padding: 0;
+    margin: 0 0 30px;
+}
+.maandAflossing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #1655d9;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.selectMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.selectArea {
+    margin-top: 0 !important;
+}
+@media only screen and (max-width: 1023px) {
+    .berekeningsimulatie {
+        padding: 80px 20px;
+   }
+    .bs {
+        width: 100%;
+   }
+}
+@media only screen and (max-width: 700px) {
+    .berekeningsimulatie {
+        padding: 20px;
+        max-height: none;
+   }
+    .bs {
+        flex-direction: column;
+   }
+    .bs-form {
+        width: 100%;
+        max-width: initial;
+   }
+    .bs-uitkomst {
+        width: 100%;
+        margin: 20px 0 0;
+        min-height: 320px;
+   }
+    .simulation-legal {
+        overflow-y: hidden;
+   }
+    .simulation-legal > div > div {
+        padding-right: 0;
+   }
+}
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+.error_msg {
+    color: red;
+}
+.buttonError {
+    opacity: 0.6;
+}
+.buttonError:hover {
+    opacity: 0.6 !important;
+}
+.loan__svg {
+    margin-bottom: 20px;
+}
+.loan__svg g {
+    stroke: white;
+}
+.loan__svg .svg-fill {
+    fill: white;
+}
+.loan__title {
+    font-family: 'roboto';
+    font-size: 18px;
+    color: #000303;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 28px;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: normal;
+}
+.loan__text {
+    font-family: 'roboto';
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+.berekeningsimulatie {
+    background: #d8e1e8;
+}
+.bs-form__slider__div__button--active {
+    background-color: #8b9c22;
+}
+.bs-form__input__div button {
+    background: #8b9c22;
+}
+.bs-form__slider__div__button--active:hover {
+    background-color: #8b9c22;
+}
+.bs-form__bereken {
+    background: #8b9c22;
+}
+.bs-uitkomst__aanvragen {
+    background: #03ace8;
+}
+.bs-uitkomst__resultaat__eur {
+    color: #8b9c22;
+}
+.submit__formulier {
+    background: none;
+    color: #8b9c22;
+}
+.simulation-legal__exit button {
+    background: #03ace8;
+}
+.bs-uitkomst__resultaat-color {
+    color: white;
+}
+.simulation-legal::-webkit-scrollbar-thumb {
+    background-color: #8b9c22;
+}
+.bs-uitkomst__jkp__info {
+    color: #8b9c22;
+}
