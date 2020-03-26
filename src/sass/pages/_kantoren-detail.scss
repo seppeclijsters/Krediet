@@ -1,54 +1,44 @@
 .kantoren-detail{
-    margin-top: 80px;
+    margin-top: 60px;
     min-height: 300px;
     background-color: #EBF0F3;
     &__container{
         padding:0;
     }
     &__layout{
-        // padding:80px 20px;
-        // // min-height: 400px;
-        // display: flex;
-        // flex-direction: column;
-        // // justify-content: center;
-        padding-top: 60px;
-        padding-bottom: 60px;
-        // color: white;
-        // background-color: $primary-darkblue;
+        padding-top: 80px;
+        padding-bottom: 100px;
         display: flex;
         justify-content: flex-end;
     }
     &__adress{
         background-color: #EBF0F3;
-        // align-items:flex-start;
     }
     &__map{
+        min-height: 300px;
         padding:0;
     }
     &__content{
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         padding-left: 50px;
-        // max-width: 570px;
-        // width: 100%;
+        padding-right: 50px;
         display: flex;
         justify-content: start;
         align-items: center;
-        // padding:50px;
-        // padding-right:10vw;
     }
-
     &__container {
-        max-width: 570px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
+    &__info{
+        padding-left: 30px;
+    }
     &__uren{
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         color: white;
         background-color: $primary-darkblue;
         display: flex;
@@ -61,10 +51,10 @@
     }
     .adress-data{
         width: 473px;
-        margin: 30px 0 30px 10px;
+        margin: 80px 0 80px 10px;
     }
     .adress-data-per{
-        margin: 20px 0;
+        margin: 30px 0;
     }
     span{
         font-size: 22px;
@@ -76,6 +66,32 @@
     }
     p{
         padding-top: 10px;
+    }
+    .afspraak{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .tekst{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .underline{
+        text-decoration: underline;
+    }
+}
+.lenen-in-antwerpen{
+    padding: 80px 10px;
+    &__content{
+        max-width: 700px;
+    }
+    h3{
+        margin-bottom: 30px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: #0A51A1;
     }
 }
 
@@ -91,6 +107,13 @@
 
 // // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    .kantoren-detail{
+        margin-top: 80px;
+        &__container {
+            max-width: 570px;
+            width: 100%;
+        }
+    }
 
 }
 
