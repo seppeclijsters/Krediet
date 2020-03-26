@@ -6,11 +6,17 @@
         padding:0;
     }
     &__layout{
-        padding:80px 20px;
-        // min-height: 400px;
+        // padding:80px 20px;
+        // // min-height: 400px;
+        // display: flex;
+        // flex-direction: column;
+        // // justify-content: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        // color: white;
+        // background-color: $primary-darkblue;
         display: flex;
-        flex-direction: column;
-        // justify-content: center;
+        justify-content: flex-end;
     }
     &__adress{
         background-color: #EBF0F3;
@@ -45,8 +51,6 @@
         padding-bottom: 60px;
         color: white;
         background-color: $primary-darkblue;
-
-
         display: flex;
         justify-content: flex-end;
     }
