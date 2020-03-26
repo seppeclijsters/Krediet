@@ -1853,7 +1853,6 @@ header {
   font-size: 16px;
   color: #0A51A1;
   line-height: 18px;
-  margin-top: 30px;
   margin-bottom: 25px;
   font-weight: bold;
   font-family: 'roboto';
@@ -1868,5 +1867,21 @@ header {
 .drupal-content a {
   color: #0A51A1;
   text-decoration: underline;
+}
+
+.drupal-content .quote {
+  font-size: 24px;
+  color: #0A51A1;
+  line-height: 32px;
+}
+
+.drupal-content .quote:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: red;
 }
 /*# sourceMappingURL=krediet.style.css.map */

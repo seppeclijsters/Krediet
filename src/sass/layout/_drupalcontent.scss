@@ -11,7 +11,7 @@
         font-size: 16px;
         color: $primary-darkblue;
         line-height: 18px;
-        margin-top: 30px;
+        // margin-top: 30px;
         margin-bottom: 25px;
         font-weight: bold;
         font-family: 'roboto';
@@ -26,5 +26,22 @@
     & a {
         color: $primary-darkblue;
         text-decoration: underline;
+    }
+
+    & .quote {
+        font-size: 24px;
+        color: $primary-darkblue;
+        line-height: 32px;
+
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+
+        }
     }
 }
