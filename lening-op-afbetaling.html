@@ -15,29 +15,25 @@
             <a href="#" class="main-nav__logo">
                 <img src="/assets/images/logo.svg" alt="logo">
             </a>
-
-            <!-- <li class="main-nav__list__item main-nav__list__item-home flex-fill ">
-                <a href="#about-us" class="nav-link">Simulatie</a>
-            </li> -->
         </div>
         <ul class="main-nav__list d-flex flex-fill ">
             <li class="main-nav__list__item main-nav__list__item-home flex-fill ">
                 <a href="#about-us" class="nav-link">Simulatie</a>
             </li>
             <li class="main-nav__list__item flex-fill hide-for-tablet">
-                <a href="#news" class="nav-link">nieuws</a>
+                <a href="#news" class="nav-link">woonkrediet</a>
             </li>
             <li class="main-nav__list__item flex-fill hide-for-tablet">
-                <a href="#models" class="nav-link">onze modellen</a>
+                <a href="#models" class="nav-link">lening</a>
             </li>
             <li class="main-nav__list__item flex-fill hide-for-tablet">
-                <a href="#" class="nav-link">occassies</a>
+                <a href="#" class="nav-link">blog</a>
             </li>
             <li class="main-nav__list__item flex-fill hide-for-tablet">
-                <a href="#contact-us" class="nav-link">contact</a>
+                <a href="#contact-us" class="nav-link">kantoren</a>
             </li>
             <li class="main-nav__list__item flex-fill hide-for-tablet">
-                <a href="#" class="nav-link">occassies</a>
+                <a href="#" class="nav-link">contact</a>
             </li>
             <li class="main-nav__list__item  hide-for-desktop">
                 <a href="#" class="nav-link mobile-nav__item__link hamburger" id="hamburger-1">
@@ -47,35 +43,51 @@
                 </a>
             </li>
             
-            <li class="main-nav__list__item hide-for-desktop">
+            <li class="main-nav__list__item hide-for-desktop  hide-for-mobile">
                 <a href="#" class="nav-link  mobile-nav__item__link">FR</a>
             </li>
         </ul>
     </nav>
 
     <div class="mobile-nav hide-for-desktop">
-        <ul class="mobile-nav__list">
-            <li class="mobile-nav__list__item">
-                <a href="#about-us" class="nav-link">Simulatie</a>
-            </li>
-            <li class="mobile-nav__list__item">
-                <a href="#news" class="nav-link">nieuws</a>
-            </li>
-            <li class="mobile-nav__list__item">
-                <a href="#models" class="nav-link">onze modellen</a>
-            </li>
-            <li class="mobile-nav__list__item">
-                <a href="#" class="nav-link">occassies</a>
-            </li>
-            <li class="mobile-nav__list__item">
-                <a href="#contact-us" class="nav-link">contact</a>
-            </li>
-            <li class="mobile-nav__list__item">
-                <a href="#" class="nav-link">occassies</a>
-            </li>
-        </ul>
+
+        <div class="h-100 d-flex flex-column justify-content-between">
+            <ul class="mobile-nav__list">
+                <li class="mobile-nav__list__item">
+                    <a href="#about-us" class="nav-link">Simulatie</a>
+                </li>
+                <li class="mobile-nav__list__item">
+                    <a href="#news" class="nav-link">woonkrediet</a>
+                </li>
+                <li class="mobile-nav__list__item">
+                    <a href="#models" class="nav-link">lening</a>
+                </li>
+                <li class="mobile-nav__list__item">
+                    <a href="#" class="nav-link">blog</a>
+                </li>
+                <li class="mobile-nav__list__item">
+                    <a href="#contact-us" class="nav-link">kantoren</a>
+                </li>
+                <li class="mobile-nav__list__item">
+                    <a href="#" class="nav-link">contact</a>
+                </li>
+            </ul>
+    
+            <div class="show-for-mobile-only">
+                <ul class="mobile-nav__language-container d-flex justify-content-center align-items-center">
+                    <li class="mobile-nav__language__item">
+                        <a class="mobile-nav__language__item__link mobile-nav__language__item__link-left" href="">NL</a>
+                    </li>
+                    <li class="mobile-nav__language__item">
+                        <a class="mobile-nav__language__item__link mobile-nav__language__item__link-right mobile-nav__language__item__link-active" href="">FR</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 
+    <div class="hidden-nav"></div>
+    
     <section class="intro">
         <div class="container">
             <div class="row flex-column align-items-center">

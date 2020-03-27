@@ -60,6 +60,14 @@ a:hover {
     display: block;
 }
 
+.hide-for-mobile {
+    display: none;
+}
+
+.show-for-mobile-only {
+    display: block;
+}
+
 .nav-link {
     padding: 0;
 }
@@ -125,9 +133,15 @@ a:hover {
         display: none;
     }
 
+    .show-for-mobile-only {
+        display: none;
+    }
+
     .hide-for-desktop {
         display: block;
     }
+
+    
 
    
 }
@@ -155,7 +169,7 @@ a:hover {
         display: none;
     }
 
-    header {
-        margin-top: 150px;
+    .show-for-mobile-only {
+        display: none;
     }
 }

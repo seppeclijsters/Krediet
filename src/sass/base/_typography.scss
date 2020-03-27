@@ -52,6 +52,37 @@
      font-style: normal;
     }
 
+@font-face {
+     font-family: 'roboto-medium';
+     src: url('../../assets/fonts/roboto_condensed/Roboto-Medium.woff') format('woff'),
+          url('../../assets/fonts/roboto/Roboto-Medium.woff2') format('woff2');  
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+
+// -------------ROBOTO CONDENSED--------------
+
+@font-face {
+     font-family: 'roboto-condensed';
+     src: url('../../assets/fonts/roboto_condensed/RobotoCondensed-Regular.woff') format('woff'),
+          url('../../assets/fonts/roboto/RobotoCondensed-Regular.woff2') format('woff2');  
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'roboto-condensed-light';
+     src: url('../../assets/fonts/roboto_condensed/RobotoCondensed-Light.woff') format('woff'),
+          url('../../assets/fonts/roboto/RobotoCondensed-Light.woff2') format('woff2');  
+     font-weight: normal;
+     font-style: normal;
+}
+
+
+
+
 
 
    

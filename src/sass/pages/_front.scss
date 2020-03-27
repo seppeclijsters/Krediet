@@ -1,13 +1,6 @@
-body {
-    height: 4000px;
-}
-
-header {
-    margin-top: 55px;
-
-}
-
 .header {
+    padding: 20px 0 60px 0;
+
     &__intro {
 
         &__title {
@@ -31,7 +24,6 @@ header {
 
 .loan {
     position: relative;
-    margin-top: 50px;
 
     &__bg {
         position: absolute;
@@ -154,9 +146,9 @@ header {
 @media (min-width: 576px) {
     
 
-    header {
-        margin-top: 120px;
-    }
+    // header {
+    //     margin-top: 120px;
+    // }
 
     .header {
 
@@ -180,7 +172,6 @@ header {
     }
 
     .loan {
-        margin-top: 50px;
 
         &__bg {
             height: 50%;
@@ -205,11 +196,9 @@ header {
 // // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 
-    header {
-        margin-top: 150px;
-    }
-
     .header {
+
+        padding: 100px 0 100px 0;
 
         &__image {
 
@@ -222,7 +211,6 @@ header {
     }
 
     .loan {
-        margin-top: 90px;
     
         &__item {
             height: 320px;
