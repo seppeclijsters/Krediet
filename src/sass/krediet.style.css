@@ -192,7 +192,7 @@ html {
 
 @font-face {
   font-family: 'roboto-medium';
-  src: url("../../assets/fonts/roboto_condensed/Roboto-Medium.woff") format("woff"), url("../../assets/fonts/roboto/Roboto-Medium.woff2") format("woff2");
+  src: url("../../assets/fonts/roboto/Roboto-Medium.woff") format("woff"), url("../../assets/fonts/roboto/Roboto-Medium.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -365,7 +365,7 @@ a:hover {
   margin-bottom: 50px;
 }
 
-label {
+.contact-form label {
   position: absolute;
   top: -12.5px;
   left: 10px;
@@ -1432,6 +1432,26 @@ input[type="submit"] {
   }
 }
 
+.simulator {
+  font-family: 'roboto';
+}
+
+.simulator p {
+  color: white;
+}
+
+.simulator .simulation-legal h2 {
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.simulator .simulation-legal h3 {
+  font-family: 'roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+
 button {
   cursor: pointer;
 }
@@ -1453,6 +1473,9 @@ input[type="number"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.bs-uitkomst--active {
   max-height: 615px;
 }
 
@@ -1463,7 +1486,7 @@ input[type="number"] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 80px;
+  padding: 0 80px;
   width: 100vw;
   background: #1655d9;
 }
@@ -1482,6 +1505,7 @@ input[type="number"] {
 }
 
 .bs button {
+  font-family: 'roboto-medium';
   outline: none;
   height: 40px;
 }
@@ -1642,7 +1666,6 @@ input[type="number"] {
   font-family: 'crimson';
   font-size: 50px;
   display: inline-block;
-  margin: 10px 5px 40px 0;
 }
 
 .bs-uitkomst__resultaat__bedrag__wrap {
@@ -1652,15 +1675,18 @@ input[type="number"] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  margin-right: 5px;
 }
 
 .bs-uitkomst__resultaat__eur {
   color: #1655d9;
-  margin-top: 23px;
+  margin-top: -7px;
+  margin-left: 5px;
 }
 
-.bs-uitkomst__uitleg {
-  font-weight: 400;
+.bs-uitkomst__uitleg p {
   font-size: 14px;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -1668,12 +1694,13 @@ input[type="number"] {
 }
 
 .bs-uitkomst__jkp__info {
-  cursor: pointer;
-  color: #1655d9;
-  text-decoration: underline;
+  cursor: pointer !important;
+  color: #0A51A1 !important;
+  text-decoration: underline !important;
 }
 
 .simulation-legal {
+  color: white;
   position: relative;
   text-align: left;
   overflow-y: scroll;
@@ -1797,9 +1824,6 @@ input[type="number"] {
     width: 100%;
     margin: 20px 0 0;
     min-height: 320px;
-  }
-  .simulation-legal {
-    overflow-y: hidden;
   }
   .simulation-legal > div > div {
     padding-right: 0;

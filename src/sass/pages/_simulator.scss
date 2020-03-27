@@ -59,6 +59,30 @@
 
 // ------------------------ SIMULATOR --------------------------
 
+.simulator {
+    font-family: 'roboto';
+
+    & p {
+        color: white;
+    }
+
+    .simulation-legal {
+
+        h2 {
+            font-family: 'roboto';
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        h3 {
+            font-family: 'roboto';
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+}
+
 button {
     cursor: pointer;
 }
@@ -74,12 +98,17 @@ input[type="number"] {
 }
 .rij {
     display: flex;
+    // max-height: 615px;
+}
+
+.bs-uitkomst--active {
     max-height: 615px;
 }
+
 .berekeningsimulatie {
     display: flex;
     justify-content: center;
-    padding: 80px;
+    padding: 0 80px;
     width: 100vw;
     background: #1655d9;
 }
@@ -94,6 +123,7 @@ input[type="number"] {
     max-width: 1140px;
 }
 .bs button {
+    font-family: 'roboto-medium';
     outline: none;
     height: 40px;
 }
@@ -210,29 +240,41 @@ input[type="number"] {
     font-family: 'crimson';
     font-size: 50px;
     display: inline-block;
-    margin: 10px 5px 40px 0;
+    // margin: 10px 5px 40px 0;
 }
 .bs-uitkomst__resultaat__bedrag__wrap {
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-right: 5px;
 }
 .bs-uitkomst__resultaat__eur {
     color: #1655d9;
-    margin-top: 23px;
+    margin-top: -7px;
+    margin-left: 5px;
 }
 .bs-uitkomst__uitleg {
-    font-weight: 400;
+    // font-weight: 400;
+    // font-size: 14px;
+    // margin-top: 40px;
+    // margin-bottom: 40px;
+    // line-height: 24px;
+}
+
+.bs-uitkomst__uitleg p {
     font-size: 14px;
     margin-top: 40px;
     margin-bottom: 40px;
     line-height: 24px;
 }
 .bs-uitkomst__jkp__info {
-    cursor: pointer;
-    color: #1655d9;
-    text-decoration: underline;
+    cursor: pointer!important;
+    color: $primary-darkblue !important;
+    text-decoration: underline!important;
 }
 .simulation-legal {
+    color: white;
     position: relative;
     text-align: left;
     overflow-y: scroll;
@@ -327,9 +369,9 @@ input[type="number"] {
         margin: 20px 0 0;
         min-height: 320px;
    }
-    .simulation-legal {
-        overflow-y: hidden;
-   }
+//     .simulation-legal {
+//         overflow-y: hidden;
+//    }
     .simulation-legal > div > div {
         padding-right: 0;
    }
