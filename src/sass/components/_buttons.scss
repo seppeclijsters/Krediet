@@ -44,9 +44,10 @@
     background-color: $sec-yellow;
 
     & svg {
+        width: 20px;
         position: absolute;
-        right: -31px;
-        top: -28px;
+        right: -14px;
+        top: -23px;
     }
 
     &:hover {
@@ -77,3 +78,48 @@
     50% {opacity: 0;}
     100% {opacity: 1;}
   }
+
+  @media (min-width: 576px) {
+
+    .btn-yellow {
+        background-color: $sec-yellow;
+    
+        & svg {
+            width: 40px;
+            position: absolute;
+            right: -31px;
+            top: -28px;
+        }
+    
+        &:hover {
+            background-color: $sec-yellow;
+            color: white;
+    
+            & .wifi-wave1 {
+                opacity: 1;
+                animation: example 1s .2s ease-in-out infinite;
+            }
+    
+            & .wifi-wave2 {
+                opacity: 1;
+                animation: example2 1s .5s ease-in-out infinite;
+            }
+            
+        }
+    }
+    
+    
+    
+}
+
+
+// // Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+
+}
+
+
+// // Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}

@@ -840,9 +840,10 @@ input[type="submit"] {
 }
 
 .btn-yellow svg {
+  width: 20px;
   position: absolute;
-  right: -31px;
-  top: -28px;
+  right: -14px;
+  top: -23px;
 }
 
 .btn-yellow:hover {
@@ -907,6 +908,32 @@ input[type="submit"] {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (min-width: 576px) {
+  .btn-yellow {
+    background-color: #EBBD00;
+  }
+  .btn-yellow svg {
+    width: 40px;
+    position: absolute;
+    right: -31px;
+    top: -28px;
+  }
+  .btn-yellow:hover {
+    background-color: #EBBD00;
+    color: white;
+  }
+  .btn-yellow:hover .wifi-wave1 {
+    opacity: 1;
+    -webkit-animation: example 1s .2s ease-in-out infinite;
+            animation: example 1s .2s ease-in-out infinite;
+  }
+  .btn-yellow:hover .wifi-wave2 {
+    opacity: 1;
+    -webkit-animation: example2 1s .5s ease-in-out infinite;
+            animation: example2 1s .5s ease-in-out infinite;
   }
 }
 
@@ -1226,6 +1253,8 @@ input[type="submit"] {
 
 .header__intro__title {
   color: #222222;
+  font-size: 26px;
+  line-height: 30px;
 }
 
 .header__intro__text {
@@ -1233,11 +1262,13 @@ input[type="submit"] {
 }
 
 .header__image {
-  margin: 30px 0;
+  margin: 0 0 10px 0;
 }
 
 .header__image img {
-  height: 200px;
+  min-height: 130px;
+  max-height: 200px;
+  height: 33vw;
 }
 
 .loan {
@@ -1359,7 +1390,12 @@ input[type="submit"] {
   .header__intro__text {
     margin: 45px 0;
   }
+  .header__image {
+    margin: 30px 0;
+  }
   .header__image img {
+    min-height: unset;
+    max-height: unset;
     height: 260px;
   }
   .header__text {
