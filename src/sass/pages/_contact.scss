@@ -14,8 +14,14 @@
     &__radio {
         margin-bottom: 50px;
     }
+    .label{
+        min-width: 22px;
+    }
+    .checkbox{
+        padding-left: 0;
+        background: none;
+    }
 }
-
 .checkbox__lening-op-afbetaling .contact-form__select__title {
     color: $sec-green;
 }
