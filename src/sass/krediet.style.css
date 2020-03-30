@@ -377,6 +377,11 @@ a:hover {
   line-height: 24px;
 }
 
+.select label {
+  position: relative;
+  padding-bottom: 5px;
+}
+
 input {
   padding-left: 10px;
   height: 55px;
@@ -645,7 +650,7 @@ input[type="submit"] {
   position: fixed;
   top: 60px;
   right: 0;
-  z-index: 2;
+  z-index: 100;
   height: calc(100% - 60px);
   -webkit-transition: -webkit-transform .5s;
   transition: -webkit-transform .5s;
@@ -949,7 +954,7 @@ input[type="submit"] {
 }
 
 .blog {
-  margin: 50px 60px;
+  margin: 50px 0 60px 0;
 }
 
 .blog__link {
@@ -1066,7 +1071,7 @@ input[type="submit"] {
 
 @media (min-width: 576px) {
   .blog {
-    margin: 70px 100px;
+    margin: 70px 0 100px 0;
   }
   .blog__uppertitle {
     margin-bottom: 70px;
@@ -1387,6 +1392,10 @@ input[type="submit"] {
 }
 
 @media (min-width: 576px) {
+  .header__intro__title {
+    font-size: 46px;
+    line-height: 47px;
+  }
   .header__intro__text {
     margin: 45px 0;
   }
@@ -1413,6 +1422,10 @@ input[type="submit"] {
 @media (min-width: 992px) {
   .header {
     padding: 100px 0 100px 0;
+  }
+  .header__intro__title {
+    font-size: 50px;
+    line-height: 55px;
   }
   .header__image {
     margin: 0;
@@ -1833,9 +1846,6 @@ input[type="number"] {
 }
 
 @media only screen and (max-width: 1023px) {
-  .berekeningsimulatie {
-    padding: 80px 20px;
-  }
   .bs {
     width: 100%;
   }

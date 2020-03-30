@@ -57,7 +57,7 @@
     position: fixed;
     top: 60px;
     right: 0;
-    z-index: 2;
+    z-index: 100;
     height: calc(100% - 60px);
     transition: transform .5s;
     transform: translateX(100%);
